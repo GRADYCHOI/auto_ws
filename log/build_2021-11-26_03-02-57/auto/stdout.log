@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target compute[0m
+[35m[1mScanning dependencies of target actuate[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable compute[0m
+[ 44%] [32m[1mLinking CXX executable actuate[0m
+[ 55%] Built target compute
+[35m[1mScanning dependencies of target sense[0m
+[ 66%] Built target actuate
+[ 77%] [32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable sense[0m
+[100%] Built target sense
+-- Install configuration: ""
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto//launch
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto//launch/auto.launch.py
+-- Installing: /home/ngvedu/auto/install/auto/lib/auto/sense
+-- Installing: /home/ngvedu/auto/install/auto/lib/auto/compute
+-- Installing: /home/ngvedu/auto/install/auto/lib/auto/actuate
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/package_run_dependencies/auto
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/parent_prefix_path/auto
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.sh
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.bash
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.sh
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.zsh
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.dsv
+-- Installing: /home/ngvedu/auto/install/auto/share/auto/package.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/packages/auto
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig-version.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/package.xml

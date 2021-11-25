@@ -25,7 +25,7 @@ class sense : public rclcpp::Node
     sense()
     : Node("sense"), count_(0)
     {
-      publisher_ = this->create_publisher<std_msgs::msg::Float64>("sense/out", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::Float64>("sense/out", 1);
       timer_ = this->create_wall_timer(
       1000ms, std::bind(&sense::timer_callback, this));
     }

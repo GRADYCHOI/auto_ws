@@ -1,0 +1,32 @@
+[0.036s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.139s] [35m[1mScanning dependencies of target compute[0m
+[0.193s] [ 33%] Built target actuate
+[0.283s] [ 66%] Built target sense
+[0.291s] [ 77%] [32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o[0m
+[8.005s] [ 88%] [32m[1mLinking CXX executable compute[0m
+[8.684s] [100%] Built target compute
+[8.716s] Invoked command in '/home/ngvedu/auto/build/auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[8.880s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/auto/build/auto
+[8.901s] -- Install configuration: ""
+[8.902s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto//launch
+[8.902s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto//launch/auto.launch.py
+[8.902s] -- Up-to-date: /home/ngvedu/auto/install/auto/lib/auto/sense
+[8.902s] -- Installing: /home/ngvedu/auto/install/auto/lib/auto/compute
+[8.917s] -- Up-to-date: /home/ngvedu/auto/install/auto/lib/auto/actuate
+[8.917s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/package_run_dependencies/auto
+[8.917s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/parent_prefix_path/auto
+[8.917s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.sh
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.dsv
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.sh
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.dsv
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.bash
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.sh
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.zsh
+[8.918s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.dsv
+[8.919s] -- Installing: /home/ngvedu/auto/install/auto/share/auto/package.dsv
+[8.919s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/packages/auto
+[8.919s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.919s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig.cmake
+[8.919s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig-version.cmake
+[8.919s] -- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/package.xml
+[8.924s] Invoked command in '/home/ngvedu/auto/build/auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/auto/build/auto

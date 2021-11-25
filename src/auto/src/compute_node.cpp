@@ -24,10 +24,10 @@ class compute : public rclcpp::Node
     : Node("compute")
     {
       subscription_ = this->create_subscription<std_msgs::msg::Float64>(
-      "sense/out", 10, std::bind(&compute::topic_callback, this, _1));
+      "sense/out", 1, std::bind(&compute::topic_callback, this, _1));
 
 
-      publisher_ = this->create_publisher<std_msgs::msg::Float64>("compute/out", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::Float64>("compute/out", 1);
       timer_ = this->create_wall_timer(
       2000ms, std::bind(&compute::timer_callback, this));
     }
@@ -37,7 +37,7 @@ class compute : public rclcpp::Node
     {
       Compute_U.in = msg->data;
       Compute_step();
-      RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg->data);
+      //RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg->data);
 
     }
     void timer_callback()

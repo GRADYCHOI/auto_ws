@@ -24,10 +24,10 @@ class actuate : public rclcpp::Node
     : Node("actuate")
     {
       subscription_ = this->create_subscription<std_msgs::msg::Float64>(
-      "compute/out", 10, std::bind(&actuate::topic_callback, this, _1));
+      "compute/out", 1, std::bind(&actuate::topic_callback, this, _1));
 
 
-      publisher_ = this->create_publisher<std_msgs::msg::Float64>("actuate/out", 10);
+      publisher_ = this->create_publisher<std_msgs::msg::Float64>("actuate/out", 1);
       timer_ = this->create_wall_timer(
       4000ms, std::bind(&actuate::timer_callback, this));
     }
@@ -37,7 +37,7 @@ class actuate : public rclcpp::Node
     {
       Actuate_U.in = msg->data;
       Actuate_step();
-      RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg->data);
+      //RCLCPP_INFO(this->get_logger(), "I heard: '%f'", msg->data);
 
     }
     void timer_callback()
