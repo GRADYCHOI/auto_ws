@@ -1,0 +1,283 @@
+[0.000000] (-) TimerEvent: {}
+[0.030634] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.031568] (auto) JobStarted: {'identifier': 'auto'}
+[0.062277] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.077074] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[0.078129] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/ngvedu/auto/install:/home/ngvedu/simulink_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/19392_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '2c5f6293-ce5d-457c-b30c-db3371edd4b0'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.099891] (-) TimerEvent: {}
+[0.200337] (-) TimerEvent: {}
+[0.219493] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target compute\x1b[0m\n'}
+[0.220020] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target actuate\x1b[0m\n'}
+[0.300529] (-) TimerEvent: {}
+[0.344167] (auto) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o\x1b[0m\n'}
+[0.400696] (-) TimerEvent: {}
+[0.416155] (auto) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o\x1b[0m\n'}
+[0.500942] (-) TimerEvent: {}
+[0.601510] (-) TimerEvent: {}
+[0.702212] (-) TimerEvent: {}
+[0.805904] (-) TimerEvent: {}
+[0.906675] (-) TimerEvent: {}
+[1.007413] (-) TimerEvent: {}
+[1.108046] (-) TimerEvent: {}
+[1.208603] (-) TimerEvent: {}
+[1.310272] (-) TimerEvent: {}
+[1.416153] (-) TimerEvent: {}
+[1.516866] (-) TimerEvent: {}
+[1.617450] (-) TimerEvent: {}
+[1.718008] (-) TimerEvent: {}
+[1.818578] (-) TimerEvent: {}
+[1.921659] (-) TimerEvent: {}
+[2.022272] (-) TimerEvent: {}
+[2.122836] (-) TimerEvent: {}
+[2.223385] (-) TimerEvent: {}
+[2.324008] (-) TimerEvent: {}
+[2.424681] (-) TimerEvent: {}
+[2.525366] (-) TimerEvent: {}
+[2.625920] (-) TimerEvent: {}
+[2.726796] (-) TimerEvent: {}
+[2.827316] (-) TimerEvent: {}
+[2.927957] (-) TimerEvent: {}
+[3.031183] (-) TimerEvent: {}
+[3.131786] (-) TimerEvent: {}
+[3.232403] (-) TimerEvent: {}
+[3.335656] (-) TimerEvent: {}
+[3.436231] (-) TimerEvent: {}
+[3.536770] (-) TimerEvent: {}
+[3.637795] (-) TimerEvent: {}
+[3.738339] (-) TimerEvent: {}
+[3.840720] (-) TimerEvent: {}
+[3.941360] (-) TimerEvent: {}
+[4.041932] (-) TimerEvent: {}
+[4.142489] (-) TimerEvent: {}
+[4.243253] (-) TimerEvent: {}
+[4.343814] (-) TimerEvent: {}
+[4.444373] (-) TimerEvent: {}
+[4.544930] (-) TimerEvent: {}
+[4.645518] (-) TimerEvent: {}
+[4.746202] (-) TimerEvent: {}
+[4.846853] (-) TimerEvent: {}
+[4.947652] (-) TimerEvent: {}
+[5.048588] (-) TimerEvent: {}
+[5.149155] (-) TimerEvent: {}
+[5.249682] (-) TimerEvent: {}
+[5.350418] (-) TimerEvent: {}
+[5.451099] (-) TimerEvent: {}
+[5.551619] (-) TimerEvent: {}
+[5.652134] (-) TimerEvent: {}
+[5.752631] (-) TimerEvent: {}
+[5.853132] (-) TimerEvent: {}
+[5.953628] (-) TimerEvent: {}
+[6.054145] (-) TimerEvent: {}
+[6.154804] (-) TimerEvent: {}
+[6.255347] (-) TimerEvent: {}
+[6.355893] (-) TimerEvent: {}
+[6.456410] (-) TimerEvent: {}
+[6.556926] (-) TimerEvent: {}
+[6.657879] (-) TimerEvent: {}
+[6.758415] (-) TimerEvent: {}
+[6.858995] (-) TimerEvent: {}
+[6.959612] (-) TimerEvent: {}
+[7.060307] (-) TimerEvent: {}
+[7.161916] (-) TimerEvent: {}
+[7.262441] (-) TimerEvent: {}
+[7.362954] (-) TimerEvent: {}
+[7.463460] (-) TimerEvent: {}
+[7.564103] (-) TimerEvent: {}
+[7.664647] (-) TimerEvent: {}
+[7.765176] (-) TimerEvent: {}
+[7.865801] (-) TimerEvent: {}
+[7.966332] (-) TimerEvent: {}
+[8.066837] (-) TimerEvent: {}
+[8.167345] (-) TimerEvent: {}
+[8.267877] (-) TimerEvent: {}
+[8.368406] (-) TimerEvent: {}
+[8.468936] (-) TimerEvent: {}
+[8.569441] (-) TimerEvent: {}
+[8.670153] (-) TimerEvent: {}
+[8.770854] (-) TimerEvent: {}
+[8.871369] (-) TimerEvent: {}
+[8.971893] (-) TimerEvent: {}
+[9.072506] (-) TimerEvent: {}
+[9.173015] (-) TimerEvent: {}
+[9.273549] (-) TimerEvent: {}
+[9.374068] (-) TimerEvent: {}
+[9.474605] (-) TimerEvent: {}
+[9.575134] (-) TimerEvent: {}
+[9.675669] (-) TimerEvent: {}
+[9.776184] (-) TimerEvent: {}
+[9.876709] (-) TimerEvent: {}
+[9.977532] (-) TimerEvent: {}
+[10.078088] (-) TimerEvent: {}
+[10.178620] (-) TimerEvent: {}
+[10.279180] (-) TimerEvent: {}
+[10.379692] (-) TimerEvent: {}
+[10.480250] (-) TimerEvent: {}
+[10.580773] (-) TimerEvent: {}
+[10.682831] (-) TimerEvent: {}
+[10.783407] (-) TimerEvent: {}
+[10.883921] (-) TimerEvent: {}
+[10.989891] (-) TimerEvent: {}
+[11.091105] (-) TimerEvent: {}
+[11.192924] (-) TimerEvent: {}
+[11.293429] (-) TimerEvent: {}
+[11.393949] (-) TimerEvent: {}
+[11.494463] (-) TimerEvent: {}
+[11.594983] (-) TimerEvent: {}
+[11.695504] (-) TimerEvent: {}
+[11.796016] (-) TimerEvent: {}
+[11.896591] (-) TimerEvent: {}
+[11.997120] (-) TimerEvent: {}
+[12.097689] (-) TimerEvent: {}
+[12.198188] (-) TimerEvent: {}
+[12.298790] (-) TimerEvent: {}
+[12.399317] (-) TimerEvent: {}
+[12.503439] (-) TimerEvent: {}
+[12.603969] (-) TimerEvent: {}
+[12.704513] (-) TimerEvent: {}
+[12.805051] (-) TimerEvent: {}
+[12.810597] (auto) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable compute\x1b[0m\n'}
+[12.911488] (-) TimerEvent: {}
+[12.937397] (auto) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable actuate\x1b[0m\n'}
+[13.011637] (-) TimerEvent: {}
+[13.112194] (-) TimerEvent: {}
+[13.213047] (-) TimerEvent: {}
+[13.313588] (-) TimerEvent: {}
+[13.414258] (-) TimerEvent: {}
+[13.514793] (-) TimerEvent: {}
+[13.543355] (auto) StdoutLine: {'line': b'[ 55%] Built target compute\n'}
+[13.578221] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sense\x1b[0m\n'}
+[13.614965] (-) TimerEvent: {}
+[13.684971] (auto) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o\x1b[0m\n'}
+[13.715126] (-) TimerEvent: {}
+[13.776697] (auto) StdoutLine: {'line': b'[ 77%] Built target actuate\n'}
+[13.815294] (-) TimerEvent: {}
+[13.915875] (-) TimerEvent: {}
+[14.017215] (-) TimerEvent: {}
+[14.118141] (-) TimerEvent: {}
+[14.280703] (-) TimerEvent: {}
+[14.382119] (-) TimerEvent: {}
+[14.482823] (-) TimerEvent: {}
+[14.583453] (-) TimerEvent: {}
+[14.684082] (-) TimerEvent: {}
+[14.784720] (-) TimerEvent: {}
+[14.885570] (-) TimerEvent: {}
+[14.986562] (-) TimerEvent: {}
+[15.087198] (-) TimerEvent: {}
+[15.187782] (-) TimerEvent: {}
+[15.288415] (-) TimerEvent: {}
+[15.389028] (-) TimerEvent: {}
+[15.489799] (-) TimerEvent: {}
+[15.590378] (-) TimerEvent: {}
+[15.690963] (-) TimerEvent: {}
+[15.791568] (-) TimerEvent: {}
+[15.892166] (-) TimerEvent: {}
+[15.993183] (-) TimerEvent: {}
+[16.094083] (-) TimerEvent: {}
+[16.194673] (-) TimerEvent: {}
+[16.295275] (-) TimerEvent: {}
+[16.397576] (-) TimerEvent: {}
+[16.579394] (-) TimerEvent: {}
+[16.680545] (-) TimerEvent: {}
+[16.786852] (-) TimerEvent: {}
+[16.887439] (-) TimerEvent: {}
+[16.988452] (-) TimerEvent: {}
+[17.089403] (-) TimerEvent: {}
+[17.190026] (-) TimerEvent: {}
+[17.290771] (-) TimerEvent: {}
+[17.391392] (-) TimerEvent: {}
+[17.492041] (-) TimerEvent: {}
+[17.592694] (-) TimerEvent: {}
+[17.693336] (-) TimerEvent: {}
+[17.793976] (-) TimerEvent: {}
+[17.894642] (-) TimerEvent: {}
+[17.995754] (-) TimerEvent: {}
+[18.096771] (-) TimerEvent: {}
+[18.197421] (-) TimerEvent: {}
+[18.298040] (-) TimerEvent: {}
+[18.398632] (-) TimerEvent: {}
+[18.499276] (-) TimerEvent: {}
+[18.599968] (-) TimerEvent: {}
+[18.700597] (-) TimerEvent: {}
+[18.801224] (-) TimerEvent: {}
+[18.901854] (-) TimerEvent: {}
+[19.002710] (-) TimerEvent: {}
+[19.103676] (-) TimerEvent: {}
+[19.204304] (-) TimerEvent: {}
+[19.304938] (-) TimerEvent: {}
+[19.405513] (-) TimerEvent: {}
+[19.506151] (-) TimerEvent: {}
+[19.606749] (-) TimerEvent: {}
+[19.707391] (-) TimerEvent: {}
+[19.808011] (-) TimerEvent: {}
+[19.908631] (-) TimerEvent: {}
+[20.009241] (-) TimerEvent: {}
+[20.109905] (-) TimerEvent: {}
+[20.210477] (-) TimerEvent: {}
+[20.311649] (-) TimerEvent: {}
+[20.412274] (-) TimerEvent: {}
+[20.512982] (-) TimerEvent: {}
+[20.613573] (-) TimerEvent: {}
+[20.714155] (-) TimerEvent: {}
+[20.814743] (-) TimerEvent: {}
+[20.915352] (-) TimerEvent: {}
+[21.016689] (-) TimerEvent: {}
+[21.117823] (-) TimerEvent: {}
+[21.218406] (-) TimerEvent: {}
+[21.318957] (-) TimerEvent: {}
+[21.419548] (-) TimerEvent: {}
+[21.520187] (-) TimerEvent: {}
+[21.620768] (-) TimerEvent: {}
+[21.721351] (-) TimerEvent: {}
+[21.822037] (-) TimerEvent: {}
+[21.924992] (-) TimerEvent: {}
+[22.042592] (-) TimerEvent: {}
+[22.147771] (-) TimerEvent: {}
+[22.248673] (-) TimerEvent: {}
+[22.349359] (-) TimerEvent: {}
+[22.449976] (-) TimerEvent: {}
+[22.550520] (-) TimerEvent: {}
+[22.651146] (-) TimerEvent: {}
+[22.751745] (-) TimerEvent: {}
+[22.852287] (-) TimerEvent: {}
+[22.953591] (-) TimerEvent: {}
+[23.054432] (-) TimerEvent: {}
+[23.155037] (-) TimerEvent: {}
+[23.255635] (-) TimerEvent: {}
+[23.357171] (-) TimerEvent: {}
+[23.457712] (-) TimerEvent: {}
+[23.558242] (-) TimerEvent: {}
+[23.587331] (auto) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable sense\x1b[0m\n'}
+[23.658475] (-) TimerEvent: {}
+[23.759221] (-) TimerEvent: {}
+[23.859902] (-) TimerEvent: {}
+[23.962616] (-) TimerEvent: {}
+[23.974236] (auto) StdoutLine: {'line': b'[100%] Built target sense\n'}
+[24.005147] (auto) CommandEnded: {'returncode': 0}
+[24.066400] (-) TimerEvent: {}
+[24.080142] (auto) JobProgress: {'identifier': 'auto', 'progress': 'install'}
+[24.104833] (auto) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngvedu/auto/build/auto'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/ngvedu/auto/install:/home/ngvedu/simulink_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/19392_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '2c5f6293-ce5d-457c-b30c-db3371edd4b0'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[24.123736] (auto) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.124309] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/lib/auto/sense\n'}
+[24.129516] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/lib/auto/compute\n'}
+[24.140193] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/lib/auto/actuate\n'}
+[24.147653] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/package_run_dependencies/auto\n'}
+[24.148046] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/parent_prefix_path/auto\n'}
+[24.148474] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.sh\n'}
+[24.148823] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.dsv\n'}
+[24.149163] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.sh\n'}
+[24.149524] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.dsv\n'}
+[24.149934] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.bash\n'}
+[24.150319] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.sh\n'}
+[24.150672] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.zsh\n'}
+[24.151027] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.dsv\n'}
+[24.151443] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/package.dsv\n'}
+[24.152139] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/packages/auto\n'}
+[24.152496] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.152890] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig.cmake\n'}
+[24.153212] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig-version.cmake\n'}
+[24.153567] (auto) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/package.xml\n'}
+[24.161284] (auto) CommandEnded: {'returncode': 0}
+[24.166898] (-) TimerEvent: {}
+[24.267320] (-) TimerEvent: {}
+[24.277256] (auto) JobEnded: {'identifier': 'auto', 'rc': 0}
+[24.278862] (-) EventReactorShutdown: {}

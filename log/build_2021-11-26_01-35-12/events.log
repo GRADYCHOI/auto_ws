@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000618] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.004792] (auto) JobStarted: {'identifier': 'auto'}
+[0.028520] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.039904] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[0.040097] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/ngvedu/auto/install:/home/ngvedu/simulink_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/21192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '18e2f966-9266-4278-a8ca-00881503bafb'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.097037] (-) TimerEvent: {}
+[0.111854] (auto) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.145655] (auto) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.197228] (-) TimerEvent: {}
+[0.297910] (-) TimerEvent: {}
+[0.398462] (-) TimerEvent: {}
+[0.401588] (auto) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.406353] (auto) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.498700] (-) TimerEvent: {}
+[0.599337] (-) TimerEvent: {}
+[0.635359] (auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.644758] (auto) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700315] (-) TimerEvent: {}
+[0.801279] (-) TimerEvent: {}
+[0.902052] (-) TimerEvent: {}
+[1.002736] (-) TimerEvent: {}
+[1.103476] (-) TimerEvent: {}
+[1.204155] (-) TimerEvent: {}
+[1.304870] (-) TimerEvent: {}
+[1.405561] (-) TimerEvent: {}
+[1.506317] (-) TimerEvent: {}
+[1.607189] (-) TimerEvent: {}
+[1.708322] (-) TimerEvent: {}
+[1.809108] (-) TimerEvent: {}
+[1.909744] (-) TimerEvent: {}
+[2.010325] (-) TimerEvent: {}
+[2.111010] (-) TimerEvent: {}
+[2.211624] (-) TimerEvent: {}
+[2.312370] (-) TimerEvent: {}
+[2.412993] (-) TimerEvent: {}
+[2.515798] (-) TimerEvent: {}
+[2.616699] (-) TimerEvent: {}
+[2.718054] (-) TimerEvent: {}
+[2.818800] (-) TimerEvent: {}
+[2.919419] (-) TimerEvent: {}
+[3.020109] (-) TimerEvent: {}
+[3.120914] (-) TimerEvent: {}
+[3.221580] (-) TimerEvent: {}
+[3.322346] (-) TimerEvent: {}
+[3.423325] (-) TimerEvent: {}
+[3.524312] (-) TimerEvent: {}
+[3.625138] (-) TimerEvent: {}
+[3.727023] (-) TimerEvent: {}
+[3.828104] (-) TimerEvent: {}
+[3.928781] (-) TimerEvent: {}
+[4.029766] (-) TimerEvent: {}
+[4.130442] (-) TimerEvent: {}
+[4.231473] (-) TimerEvent: {}
+[4.332430] (-) TimerEvent: {}
+[4.433291] (-) TimerEvent: {}
+[4.534263] (-) TimerEvent: {}
+[4.635248] (-) TimerEvent: {}
+[4.737105] (-) TimerEvent: {}
+[4.838409] (-) TimerEvent: {}
+[4.897707] (auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.938642] (-) TimerEvent: {}
+[4.971151] (auto) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.974547] (auto) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.038899] (-) TimerEvent: {}
+[5.139699] (-) TimerEvent: {}
+[5.240296] (-) TimerEvent: {}
+[5.268623] (auto) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.300666] (auto) StdoutLine: {'line': b'-- Generating done\n'}
+[5.307282] (auto) StdoutLine: {'line': b'-- Build files have been written to: /home/ngvedu/auto/build/auto\n'}
+[5.340490] (-) TimerEvent: {}
+[5.356692] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target compute\x1b[0m\n'}
+[5.446232] (-) TimerEvent: {}
+[5.460833] (auto) StdoutLine: {'line': b'[ 50%] Built target sense\n'}
+[5.511583] (auto) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o\x1b[0m\n'}
+[5.516256] (auto) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/compute.dir/src/Compute.c.o\x1b[0m\n'}
+[5.546411] (-) TimerEvent: {}
+[5.649523] (-) TimerEvent: {}
+[5.750071] (-) TimerEvent: {}
+[5.850710] (-) TimerEvent: {}
+[5.951361] (-) TimerEvent: {}
+[6.052280] (-) TimerEvent: {}
+[6.152924] (-) TimerEvent: {}
+[6.253702] (-) TimerEvent: {}
+[6.354501] (-) TimerEvent: {}
+[6.455176] (-) TimerEvent: {}
+[6.557917] (-) TimerEvent: {}
+[6.659104] (-) TimerEvent: {}
+[6.759893] (-) TimerEvent: {}
+[6.860613] (-) TimerEvent: {}
+[6.961199] (-) TimerEvent: {}
+[7.061888] (-) TimerEvent: {}
+[7.162488] (-) TimerEvent: {}
+[7.263163] (-) TimerEvent: {}
+[7.363839] (-) TimerEvent: {}
+[7.464535] (-) TimerEvent: {}
+[7.565376] (-) TimerEvent: {}
+[7.666045] (-) TimerEvent: {}
+[7.767118] (-) TimerEvent: {}
+[7.868417] (-) TimerEvent: {}
+[7.969029] (-) TimerEvent: {}
+[8.069681] (-) TimerEvent: {}
+[8.170380] (-) TimerEvent: {}
+[8.271033] (-) TimerEvent: {}
+[8.371711] (-) TimerEvent: {}
+[8.472471] (-) TimerEvent: {}
+[8.507982] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/compute_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kcompute::compute()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.508678] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/compute_node.cpp:24:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.508874] (auto) StderrLine: {'line': b'   24 |       "sense/out", 10, std::bind(&compute::topic_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[8.509014] (auto) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.509136] (auto) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[8.509261] (auto) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/compute_node.cpp:7\x1b[m\x1b[K:\n'}
+[8.509385] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:211:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.509507] (auto) StderrLine: {'line': b'  211 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[8.509757] (auto) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.572736] (-) TimerEvent: {}
+[8.673604] (-) TimerEvent: {}
+[8.774649] (-) TimerEvent: {}
+[8.875861] (-) TimerEvent: {}
+[8.976754] (-) TimerEvent: {}
+[9.077384] (-) TimerEvent: {}
+[9.149788] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/compute.dir/build.make:76: CMakeFiles/compute.dir/src/compute_node.cpp.o] Error 1\n'}
+[9.152048] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/compute.dir/all] Error 2\n'}
+[9.152317] (auto) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.155116] (auto) CommandEnded: {'returncode': 2}
+[9.177638] (-) TimerEvent: {}
+[9.251138] (auto) JobEnded: {'identifier': 'auto', 'rc': 2}
+[9.256393] (-) EventReactorShutdown: {}

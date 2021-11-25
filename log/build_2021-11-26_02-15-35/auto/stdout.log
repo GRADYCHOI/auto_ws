@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target actuate[0m
+[ 33%] Built target compute
+[ 66%] Built target sense
+[ 77%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m

@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.002894] (auto) JobStarted: {'identifier': 'auto'}
+[0.033225] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.034672] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[0.036013] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/ngvedu/auto/install:/home/ngvedu/simulink_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/21192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '18e2f966-9266-4278-a8ca-00881503bafb'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ngvedu/auto/install/auto:/home/ngvedu/simulink_ws/install/sense:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.098368] (-) TimerEvent: {}
+[0.156868] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target compute\x1b[0m\n'}
+[0.198512] (-) TimerEvent: {}
+[0.232581] (auto) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/compute.dir/src/Compute.c.o\x1b[0m\n'}
+[0.254991] (auto) StdoutLine: {'line': b'[ 66%] Built target sense\n'}
+[0.268091] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:20:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier or \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[0.268463] (auto) StderrLine: {'line': b'   20 | extern \x1b[01;31m\x1b[K"C"\x1b[m\x1b[K {\n'}
+[0.268641] (auto) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.268880] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:27:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KExtU_Compute_T\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.269201] (auto) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[KExtU_Compute_T\x1b[m\x1b[K Compute_U;\n'}
+[0.269330] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.269448] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:30:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KExtY_Compute_T\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.269557] (auto) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[KExtY_Compute_T\x1b[m\x1b[K Compute_Y;\n'}
+[0.269664] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.269903] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:33:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KRT_MODEL_Compute_T\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KRTW_HEADER_Compute_h_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.270045] (auto) StderrLine: {'line': b'   33 | \x1b[01;31m\x1b[KRT_MODEL_Compute_T\x1b[m\x1b[K Compute_M_;\n'}
+[0.270300] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.270443] (auto) StderrLine: {'line': b'      | \x1b[32m\x1b[KRTW_HEADER_Compute_h_\x1b[m\x1b[K\n'}
+[0.270553] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:34:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KRT_MODEL_Compute_T\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KRTW_HEADER_Compute_h_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.270661] (auto) StderrLine: {'line': b'   34 | \x1b[01;31m\x1b[KRT_MODEL_Compute_T\x1b[m\x1b[K *const Compute_M = &Compute_M_;\n'}
+[0.270765] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.270869] (auto) StderrLine: {'line': b'      | \x1b[32m\x1b[KRTW_HEADER_Compute_h_\x1b[m\x1b[K\n'}
+[0.270970] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCompute_step\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.271077] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:44:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kout\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.271193] (auto) StderrLine: {'line': b'   44 |   Compute_Y\x1b[01;31m\x1b[K.\x1b[m\x1b[Kout = 2.0 * Compute_U.in;\n'}
+[0.271306] (auto) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.271881] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Compute.c:44:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.272005] (auto) StderrLine: {'line': b'   44 |   Compute_Y.out = 2.0 * Compute_U\x1b[01;31m\x1b[K.\x1b[m\x1b[Kin;\n'}
+[0.272116] (auto) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.275994] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/compute.dir/build.make:63: CMakeFiles/compute.dir/src/Compute.c.o] Error 1\n'}
+[0.282208] (auto) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[0.286795] (auto) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o\x1b[0m\n'}
+[0.298617] (-) TimerEvent: {}
+[0.399152] (-) TimerEvent: {}
+[0.499715] (-) TimerEvent: {}
+[0.600436] (-) TimerEvent: {}
+[0.701081] (-) TimerEvent: {}
+[0.801786] (-) TimerEvent: {}
+[0.902481] (-) TimerEvent: {}
+[1.003152] (-) TimerEvent: {}
+[1.103753] (-) TimerEvent: {}
+[1.204330] (-) TimerEvent: {}
+[1.304924] (-) TimerEvent: {}
+[1.405914] (-) TimerEvent: {}
+[1.506730] (-) TimerEvent: {}
+[1.607381] (-) TimerEvent: {}
+[1.707999] (-) TimerEvent: {}
+[1.808665] (-) TimerEvent: {}
+[1.911040] (-) TimerEvent: {}
+[2.015986] (-) TimerEvent: {}
+[2.116732] (-) TimerEvent: {}
+[2.217354] (-) TimerEvent: {}
+[2.318024] (-) TimerEvent: {}
+[2.418787] (-) TimerEvent: {}
+[2.519548] (-) TimerEvent: {}
+[2.620280] (-) TimerEvent: {}
+[2.720956] (-) TimerEvent: {}
+[2.821682] (-) TimerEvent: {}
+[2.922658] (-) TimerEvent: {}
+[3.023386] (-) TimerEvent: {}
+[3.124022] (-) TimerEvent: {}
+[3.224657] (-) TimerEvent: {}
+[3.325384] (-) TimerEvent: {}
+[3.426073] (-) TimerEvent: {}
+[3.526736] (-) TimerEvent: {}
+[3.627382] (-) TimerEvent: {}
+[3.727995] (-) TimerEvent: {}
+[3.828637] (-) TimerEvent: {}
+[3.929349] (-) TimerEvent: {}
+[4.030017] (-) TimerEvent: {}
+[4.130787] (-) TimerEvent: {}
+[4.231542] (-) TimerEvent: {}
+[4.332291] (-) TimerEvent: {}
+[4.432935] (-) TimerEvent: {}
+[4.533540] (-) TimerEvent: {}
+[4.634155] (-) TimerEvent: {}
+[4.734762] (-) TimerEvent: {}
+[4.835382] (-) TimerEvent: {}
+[4.936136] (-) TimerEvent: {}
+[5.037092] (-) TimerEvent: {}
+[5.137970] (-) TimerEvent: {}
+[5.238730] (-) TimerEvent: {}
+[5.339485] (-) TimerEvent: {}
+[5.440411] (-) TimerEvent: {}
+[5.541322] (-) TimerEvent: {}
+[5.642050] (-) TimerEvent: {}
+[5.743032] (-) TimerEvent: {}
+[5.843954] (-) TimerEvent: {}
+[5.944807] (-) TimerEvent: {}
+[6.045773] (-) TimerEvent: {}
+[6.146469] (-) TimerEvent: {}
+[6.247165] (-) TimerEvent: {}
+[6.347840] (-) TimerEvent: {}
+[6.448424] (-) TimerEvent: {}
+[6.549050] (-) TimerEvent: {}
+[6.649692] (-) TimerEvent: {}
+[6.750286] (-) TimerEvent: {}
+[6.850896] (-) TimerEvent: {}
+[6.952035] (-) TimerEvent: {}
+[7.053135] (-) TimerEvent: {}
+[7.153752] (-) TimerEvent: {}
+[7.254416] (-) TimerEvent: {}
+[7.355040] (-) TimerEvent: {}
+[7.455685] (-) TimerEvent: {}
+[7.556266] (-) TimerEvent: {}
+[7.656989] (-) TimerEvent: {}
+[7.757561] (-) TimerEvent: {}
+[7.858174] (-) TimerEvent: {}
+[7.931315] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/compute.dir/all] Error 2\n'}
+[7.934064] (auto) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.949659] (auto) CommandEnded: {'returncode': 2}
+[7.958347] (-) TimerEvent: {}
+[8.035506] (auto) JobEnded: {'identifier': 'auto', 'rc': 2}
+[8.046878] (-) EventReactorShutdown: {}

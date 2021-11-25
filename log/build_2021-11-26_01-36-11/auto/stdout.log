@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target compute[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o[0m
+[ 66%] Built target sense
+[ 83%] [32m[1mLinking CXX executable compute[0m
+[100%] Built target compute
+-- Install configuration: ""
+-- Up-to-date: /home/ngvedu/auto/install/auto/lib/auto/sense
+-- Installing: /home/ngvedu/auto/install/auto/lib/auto/compute
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/package_run_dependencies/auto
+-- Installing: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/parent_prefix_path/auto
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.sh
+-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/environment/path.sh
+-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/path.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.bash
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.sh
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/local_setup.zsh
+-- Installing: /home/ngvedu/auto/install/auto/share/auto/local_setup.dsv
+-- Installing: /home/ngvedu/auto/install/auto/share/auto/package.dsv
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/packages/auto
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig-version.cmake
+-- Up-to-date: /home/ngvedu/auto/install/auto/share/auto/package.xml

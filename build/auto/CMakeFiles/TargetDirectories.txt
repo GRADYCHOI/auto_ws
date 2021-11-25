@@ -1,0 +1,12 @@
+/home/ngvedu/auto/build/auto/CMakeFiles/install/local.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/install.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/list_install_components.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/rebuild_cache.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/install/strip.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/actuate.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/edit_cache.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/test.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/compute.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/sense.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/auto_uninstall.dir
+/home/ngvedu/auto/build/auto/CMakeFiles/uninstall.dir

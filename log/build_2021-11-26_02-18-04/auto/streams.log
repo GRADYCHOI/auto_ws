@@ -1,0 +1,17 @@
+[0.046s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.147s] [35m[1mScanning dependencies of target actuate[0m
+[0.216s] [ 33%] Built target compute
+[0.242s] [ 44%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m
+[0.316s] [ 77%] Built target sense
+[2.342s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::topic_callback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.342s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:38:14:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[2.342s]    38 |       actuate[01;31m[K.[m[Kin = msg->data;
+[2.342s]       |              [01;31m[K^[m[K
+[2.343s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::timer_callback()[m[K’:
+[2.343s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:46:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+[2.343s]    46 |       message.data = actuate[01;31m[K.[m[Kout;
+[2.343s]       |                             [01;31m[K^[m[K
+[4.590s] make[2]: *** [CMakeFiles/actuate.dir/build.make:76: CMakeFiles/actuate.dir/src/actuate_node.cpp.o] Error 1
+[4.590s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/actuate.dir/all] Error 2
+[4.590s] make: *** [Makefile:141: all] Error 2
+[4.596s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

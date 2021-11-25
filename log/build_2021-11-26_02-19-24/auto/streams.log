@@ -1,0 +1,19 @@
+[0.055s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.159s] [35m[1mScanning dependencies of target actuate[0m
+[0.191s] [ 33%] Built target compute
+[0.267s] [ 44%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m
+[0.296s] [ 77%] Built target sense
+[2.297s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::topic_callback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.298s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[KActuate_U[m[K’ was not declared in this scope; did you mean ‘[01m[Kactuate[m[K’?
+[2.298s]    38 |       [01;31m[KActuate_U[m[K.in = msg->data;
+[2.299s]       |       [01;31m[K^~~~~~~~~[m[K
+[2.299s]       |       [32m[Kactuate[m[K
+[2.302s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::timer_callback()[m[K’:
+[2.303s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:46:22:[m[K [01;31m[Kerror: [m[K‘[01m[KActuate_U[m[K’ was not declared in this scope; did you mean ‘[01m[Kactuate[m[K’?
+[2.303s]    46 |       message.data = [01;31m[KActuate_U[m[K.out;
+[2.303s]       |                      [01;31m[K^~~~~~~~~[m[K
+[2.303s]       |                      [32m[Kactuate[m[K
+[4.604s] make[2]: *** [CMakeFiles/actuate.dir/build.make:76: CMakeFiles/actuate.dir/src/actuate_node.cpp.o] Error 1
+[4.605s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/actuate.dir/all] Error 2
+[4.605s] make: *** [Makefile:141: all] Error 2
+[4.610s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

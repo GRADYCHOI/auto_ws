@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.007661] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.007748] (auto) JobStarted: {'identifier': 'auto'}
+[0.045380] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.045571] (auto) Command: {'cmd': ['/usr/bin/cmake', '/home/ngvedu/auto/src/auto', '-DCMAKE_INSTALL_PREFIX=/home/ngvedu/auto/install/auto'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/21134_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '69be8d64-bef5-42a9-ab4a-93f3791a02f4'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099364] (-) TimerEvent: {}
+[0.199991] (-) TimerEvent: {}
+[0.300702] (-) TimerEvent: {}
+[0.401447] (-) TimerEvent: {}
+[0.502068] (-) TimerEvent: {}
+[0.602720] (-) TimerEvent: {}
+[0.703404] (-) TimerEvent: {}
+[0.717990] (auto) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.803655] (-) TimerEvent: {}
+[0.907055] (-) TimerEvent: {}
+[1.007701] (-) TimerEvent: {}
+[1.108374] (-) TimerEvent: {}
+[1.208937] (-) TimerEvent: {}
+[1.248050] (auto) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.309137] (-) TimerEvent: {}
+[1.385612] (auto) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.409374] (-) TimerEvent: {}
+[1.512242] (-) TimerEvent: {}
+[1.612801] (-) TimerEvent: {}
+[1.665283] (auto) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.668511] (auto) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.713043] (-) TimerEvent: {}
+[1.813630] (-) TimerEvent: {}
+[1.882187] (auto) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.913829] (-) TimerEvent: {}
+[1.914325] (auto) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.918448] (auto) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.922416] (auto) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.014072] (-) TimerEvent: {}
+[2.114690] (-) TimerEvent: {}
+[2.166567] (auto) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.169163] (auto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.214851] (-) TimerEvent: {}
+[2.315641] (-) TimerEvent: {}
+[2.383123] (auto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.415805] (-) TimerEvent: {}
+[2.416583] (auto) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.418211] (auto) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.438288] (auto) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.483213] (auto) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.484795] (auto) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.516028] (-) TimerEvent: {}
+[2.616634] (-) TimerEvent: {}
+[2.717155] (-) TimerEvent: {}
+[2.774367] (auto) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.790840] (auto) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.817386] (-) TimerEvent: {}
+[2.918009] (-) TimerEvent: {}
+[3.009083] (auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.018223] (-) TimerEvent: {}
+[3.034725] (auto) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.118407] (-) TimerEvent: {}
+[3.219090] (-) TimerEvent: {}
+[3.320353] (-) TimerEvent: {}
+[3.421318] (-) TimerEvent: {}
+[3.521887] (-) TimerEvent: {}
+[3.622593] (-) TimerEvent: {}
+[3.723224] (-) TimerEvent: {}
+[3.823932] (-) TimerEvent: {}
+[3.924568] (-) TimerEvent: {}
+[4.025204] (-) TimerEvent: {}
+[4.125756] (-) TimerEvent: {}
+[4.204852] (auto) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.225989] (-) TimerEvent: {}
+[4.326767] (-) TimerEvent: {}
+[4.427545] (-) TimerEvent: {}
+[4.528215] (-) TimerEvent: {}
+[4.628861] (-) TimerEvent: {}
+[4.729476] (-) TimerEvent: {}
+[4.830183] (-) TimerEvent: {}
+[4.930903] (-) TimerEvent: {}
+[5.031650] (-) TimerEvent: {}
+[5.132227] (-) TimerEvent: {}
+[5.232911] (-) TimerEvent: {}
+[5.333815] (-) TimerEvent: {}
+[5.356172] (auto) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.433975] (-) TimerEvent: {}
+[5.534580] (-) TimerEvent: {}
+[5.635227] (-) TimerEvent: {}
+[5.736097] (-) TimerEvent: {}
+[5.836736] (-) TimerEvent: {}
+[5.937369] (-) TimerEvent: {}
+[6.038017] (-) TimerEvent: {}
+[6.138654] (-) TimerEvent: {}
+[6.239233] (-) TimerEvent: {}
+[6.340061] (-) TimerEvent: {}
+[6.440622] (-) TimerEvent: {}
+[6.541276] (-) TimerEvent: {}
+[6.641961] (-) TimerEvent: {}
+[6.742661] (-) TimerEvent: {}
+[6.843328] (-) TimerEvent: {}
+[6.944092] (-) TimerEvent: {}
+[7.044799] (-) TimerEvent: {}
+[7.145575] (-) TimerEvent: {}
+[7.246670] (-) TimerEvent: {}
+[7.347338] (-) TimerEvent: {}
+[7.447911] (-) TimerEvent: {}
+[7.511661] (auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.548136] (-) TimerEvent: {}
+[7.614158] (auto) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.619560] (auto) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.623334] (auto) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.648312] (-) TimerEvent: {}
+[7.748856] (-) TimerEvent: {}
+[7.849568] (-) TimerEvent: {}
+[7.901076] (auto) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.902007] (auto) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.949787] (-) TimerEvent: {}
+[8.050395] (-) TimerEvent: {}
+[8.136610] (auto) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.137137] (auto) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.150868] (-) TimerEvent: {}
+[8.251408] (-) TimerEvent: {}
+[8.346630] (auto) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.347045] (auto) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.351645] (-) TimerEvent: {}
+[8.452167] (-) TimerEvent: {}
+[8.545222] (auto) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.548054] (auto) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.552286] (-) TimerEvent: {}
+[8.653015] (-) TimerEvent: {}
+[8.753679] (-) TimerEvent: {}
+[8.854257] (-) TimerEvent: {}
+[8.910196] (auto) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.942354] (auto) StdoutLine: {'line': b'-- Generating done\n'}
+[8.947038] (auto) StdoutLine: {'line': b'-- Build files have been written to: /home/ngvedu/auto/build/auto\n'}
+[8.954377] (-) TimerEvent: {}
+[8.978377] (auto) CommandEnded: {'returncode': 0}
+[8.980850] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[8.980934] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/21134_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '69be8d64-bef5-42a9-ab4a-93f3791a02f4'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.053042] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sense\x1b[0m\n'}
+[9.054515] (-) TimerEvent: {}
+[9.155170] (-) TimerEvent: {}
+[9.255688] (-) TimerEvent: {}
+[9.354657] (auto) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o\x1b[0m\n'}
+[9.355951] (-) TimerEvent: {}
+[9.356612] (auto) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sense.dir/src/ert_main.cpp.o\x1b[0m\n'}
+[9.456153] (-) TimerEvent: {}
+[9.556877] (-) TimerEvent: {}
+[9.657596] (-) TimerEvent: {}
+[9.758181] (-) TimerEvent: {}
+[9.858895] (-) TimerEvent: {}
+[9.959584] (-) TimerEvent: {}
+[10.060242] (-) TimerEvent: {}
+[10.160968] (-) TimerEvent: {}
+[10.261798] (-) TimerEvent: {}
+[10.362750] (-) TimerEvent: {}
+[10.470654] (-) TimerEvent: {}
+[10.574578] (-) TimerEvent: {}
+[10.726975] (-) TimerEvent: {}
+[10.827665] (-) TimerEvent: {}
+[10.928358] (-) TimerEvent: {}
+[11.029151] (-) TimerEvent: {}
+[11.130029] (-) TimerEvent: {}
+[11.230688] (-) TimerEvent: {}
+[11.331722] (-) TimerEvent: {}
+[11.432922] (-) TimerEvent: {}
+[11.533793] (-) TimerEvent: {}
+[11.634534] (-) TimerEvent: {}
+[11.735211] (-) TimerEvent: {}
+[11.835874] (-) TimerEvent: {}
+[11.936896] (-) TimerEvent: {}
+[12.037590] (-) TimerEvent: {}
+[12.138218] (-) TimerEvent: {}
+[12.238947] (-) TimerEvent: {}
+[12.339558] (-) TimerEvent: {}
+[12.440148] (-) TimerEvent: {}
+[12.541092] (-) TimerEvent: {}
+[12.641996] (-) TimerEvent: {}
+[12.742678] (-) TimerEvent: {}
+[12.843329] (-) TimerEvent: {}
+[12.944047] (-) TimerEvent: {}
+[13.044791] (-) TimerEvent: {}
+[13.145382] (-) TimerEvent: {}
+[13.246121] (-) TimerEvent: {}
+[13.347175] (-) TimerEvent: {}
+[13.448281] (-) TimerEvent: {}
+[13.549042] (-) TimerEvent: {}
+[13.660752] (-) TimerEvent: {}
+[13.761399] (-) TimerEvent: {}
+[13.862144] (-) TimerEvent: {}
+[13.962730] (-) TimerEvent: {}
+[14.063349] (-) TimerEvent: {}
+[14.163938] (-) TimerEvent: {}
+[14.264501] (-) TimerEvent: {}
+[14.365295] (-) TimerEvent: {}
+[14.466073] (-) TimerEvent: {}
+[14.566811] (-) TimerEvent: {}
+[14.667464] (-) TimerEvent: {}
+[14.768085] (-) TimerEvent: {}
+[14.868689] (-) TimerEvent: {}
+[14.969327] (-) TimerEvent: {}
+[15.071649] (-) TimerEvent: {}
+[15.175803] (-) TimerEvent: {}
+[15.280486] (-) TimerEvent: {}
+[15.394789] (-) TimerEvent: {}
+[15.500155] (-) TimerEvent: {}
+[15.605403] (-) TimerEvent: {}
+[15.717478] (-) TimerEvent: {}
+[15.823920] (-) TimerEvent: {}
+[15.931067] (-) TimerEvent: {}
+[16.031710] (-) TimerEvent: {}
+[16.132328] (-) TimerEvent: {}
+[16.232976] (-) TimerEvent: {}
+[16.333639] (-) TimerEvent: {}
+[16.436180] (-) TimerEvent: {}
+[16.536843] (-) TimerEvent: {}
+[16.637535] (-) TimerEvent: {}
+[16.738244] (-) TimerEvent: {}
+[16.839062] (-) TimerEvent: {}
+[16.942499] (-) TimerEvent: {}
+[17.043158] (-) TimerEvent: {}
+[17.253699] (-) TimerEvent: {}
+[17.354620] (-) TimerEvent: {}
+[17.455577] (-) TimerEvent: {}
+[17.563200] (-) TimerEvent: {}
+[17.663700] (-) TimerEvent: {}
+[17.764313] (-) TimerEvent: {}
+[17.865098] (-) TimerEvent: {}
+[17.965744] (-) TimerEvent: {}
+[18.066420] (-) TimerEvent: {}
+[18.167113] (-) TimerEvent: {}
+[18.279730] (-) TimerEvent: {}
+[18.382003] (-) TimerEvent: {}
+[18.482577] (-) TimerEvent: {}
+[18.583165] (-) TimerEvent: {}
+[18.671272] (auto) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sense\x1b[0m\n'}
+[18.684871] (-) TimerEvent: {}
+[18.785500] (-) TimerEvent: {}
+[18.887586] (-) TimerEvent: {}
+[18.988359] (-) TimerEvent: {}
+[19.089163] (-) TimerEvent: {}
+[19.102224] (auto) StdoutLine: {'line': b'[100%] Built target sense\n'}
+[19.130492] (auto) CommandEnded: {'returncode': 0}
+[19.182102] (auto) JobProgress: {'identifier': 'auto', 'progress': 'install'}
+[19.189450] (-) TimerEvent: {}
+[19.203991] (auto) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngvedu/auto/build/auto'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/21134_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '69be8d64-bef5-42a9-ab4a-93f3791a02f4'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[19.228518] (auto) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.231240] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/lib/auto/sense\n'}
+[19.234543] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/package_run_dependencies/auto\n'}
+[19.236082] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/parent_prefix_path/auto\n'}
+[19.237534] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.sh\n'}
+[19.238575] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/ament_prefix_path.dsv\n'}
+[19.240314] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/path.sh\n'}
+[19.241050] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/environment/path.dsv\n'}
+[19.241719] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/local_setup.bash\n'}
+[19.242817] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/local_setup.sh\n'}
+[19.243960] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/local_setup.zsh\n'}
+[19.245427] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/local_setup.dsv\n'}
+[19.245591] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/package.dsv\n'}
+[19.246612] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/ament_index/resource_index/packages/auto\n'}
+[19.247603] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.248708] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig.cmake\n'}
+[19.249459] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/cmake/autoConfig-version.cmake\n'}
+[19.250121] (auto) StdoutLine: {'line': b'-- Installing: /home/ngvedu/auto/install/auto/share/auto/package.xml\n'}
+[19.255328] (auto) CommandEnded: {'returncode': 0}
+[19.387542] (-) TimerEvent: {}
+[19.488346] (-) TimerEvent: {}
+[19.594289] (-) TimerEvent: {}
+[19.600959] (auto) JobEnded: {'identifier': 'auto', 'rc': 0}
+[19.617021] (-) EventReactorShutdown: {}

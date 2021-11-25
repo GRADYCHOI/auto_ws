@@ -1,0 +1,28 @@
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:20:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   20 | extern [01;31m[K"C"[m[K {
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:27:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KExtU_Compute_T[m[K’
+   27 | [01;31m[KExtU_Compute_T[m[K Compute_U;
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:30:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KExtY_Compute_T[m[K’
+   30 | [01;31m[KExtY_Compute_T[m[K Compute_Y;
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:33:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KRT_MODEL_Compute_T[m[K’; did you mean ‘[01m[KRTW_HEADER_Compute_h_[m[K’?
+   33 | [01;31m[KRT_MODEL_Compute_T[m[K Compute_M_;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KRTW_HEADER_Compute_h_[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:34:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KRT_MODEL_Compute_T[m[K’; did you mean ‘[01m[KRTW_HEADER_Compute_h_[m[K’?
+   34 | [01;31m[KRT_MODEL_Compute_T[m[K *const Compute_M = &Compute_M_;
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KRTW_HEADER_Compute_h_[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:[m[K In function ‘[01m[KCompute_step[m[K’:
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:44:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kout[m[K’ in something not a structure or union
+   44 |   Compute_Y[01;31m[K.[m[Kout = 2.0 * Compute_U.in;
+      |            [01;31m[K^[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/Compute.c:44:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kin[m[K’ in something not a structure or union
+   44 |   Compute_Y.out = 2.0 * Compute_U[01;31m[K.[m[Kin;
+      |                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/compute.dir/build.make:63: CMakeFiles/compute.dir/src/Compute.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/compute.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,22 @@
+[0.035s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.144s] [35m[1mScanning dependencies of target actuate[0m
+[0.221s] [ 11%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m
+[0.237s] [ 44%] Built target compute
+[0.307s] [ 77%] Built target sense
+[2.314s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::timer_callback()[m[K’:
+[2.315s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:46:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ExtU_Actuate_T[m[K’ has no member named ‘[01m[Kout[m[K’
+[2.315s]    46 |       message.data = Actuate_U.[01;31m[Kout[m[K;
+[2.315s]       |                                [01;31m[K^~~[m[K
+[2.334s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.334s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCompute_initialize[m[K’ was not declared in this scope; did you mean ‘[01m[KActuate_initialize[m[K’?
+[2.334s]    57 |   [01;31m[KCompute_initialize[m[K();
+[2.334s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.334s]       |   [32m[KActuate_initialize[m[K
+[2.348s] [01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCompute_terminate[m[K’ was not declared in this scope; did you mean ‘[01m[KActuate_terminate[m[K’?
+[2.348s]    63 |   [01;31m[KCompute_terminate[m[K();
+[2.348s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.348s]       |   [32m[KActuate_terminate[m[K
+[4.581s] make[2]: *** [CMakeFiles/actuate.dir/build.make:76: CMakeFiles/actuate.dir/src/actuate_node.cpp.o] Error 1
+[4.581s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/actuate.dir/all] Error 2
+[4.582s] make: *** [Makefile:141: all] Error 2
+[4.590s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

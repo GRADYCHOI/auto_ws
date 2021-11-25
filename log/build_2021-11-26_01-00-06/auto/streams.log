@@ -1,0 +1,35 @@
+[0.037s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.108s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.420s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.425s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.932s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.233s] -- Configuring done
+[5.258s] -- Generating done
+[5.262s] -- Build files have been written to: /home/ngvedu/auto/build/auto
+[5.310s] [35m[1mScanning dependencies of target sense[0m
+[5.381s] [ 33%] [32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o[0m
+[7.317s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.317s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ was not declared in this scope
+[7.317s]    51 |   rclcpp::spin(std::make_shared<[01;31m[KMinimalPublisher[m[K>());
+[7.317s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.318s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:51:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.318s]    51 |   rclcpp::spin(std::make_shared<MinimalPublisher>([01;31m[K)[m[K);
+[7.318s]       |                                                   [01;31m[K^[m[K
+[7.318s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[7.318s]                  from [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:8[m[K:
+[7.318s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.318s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.319s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.319s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.319s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:51:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.321s]    51 |   rclcpp::spin(std::make_shared<MinimalPublisher>([01;31m[K)[m[K);
+[7.321s]       |                                                   [01;31m[K^[m[K
+[8.255s] make[2]: *** [CMakeFiles/sense.dir/build.make:76: CMakeFiles/sense.dir/src/sense_node.cpp.o] Error 1
+[8.256s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sense.dir/all] Error 2
+[8.256s] make: *** [Makefile:141: all] Error 2
+[8.261s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

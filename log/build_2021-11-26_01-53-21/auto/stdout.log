@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target compute[0m
+[ 16%] [32mBuilding C object CMakeFiles/compute.dir/src/Compute.c.o[0m
+[ 66%] Built target sense
+[ 83%] [32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o[0m

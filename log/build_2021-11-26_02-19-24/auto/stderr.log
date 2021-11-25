@@ -1,0 +1,13 @@
+[01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::topic_callback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[KActuate_U[m[K’ was not declared in this scope; did you mean ‘[01m[Kactuate[m[K’?
+   38 |       [01;31m[KActuate_U[m[K.in = msg->data;
+      |       [01;31m[K^~~~~~~~~[m[K
+      |       [32m[Kactuate[m[K
+[01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:[m[K In member function ‘[01m[Kvoid actuate::timer_callback()[m[K’:
+[01m[K/home/ngvedu/auto/src/auto/src/actuate_node.cpp:46:22:[m[K [01;31m[Kerror: [m[K‘[01m[KActuate_U[m[K’ was not declared in this scope; did you mean ‘[01m[Kactuate[m[K’?
+   46 |       message.data = [01;31m[KActuate_U[m[K.out;
+      |                      [01;31m[K^~~~~~~~~[m[K
+      |                      [32m[Kactuate[m[K
+make[2]: *** [CMakeFiles/actuate.dir/build.make:76: CMakeFiles/actuate.dir/src/actuate_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/actuate.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
