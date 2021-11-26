@@ -73,10 +73,6 @@ extern DW_Sense_T Sense_DW;
 extern ExtY_Sense_T Sense_Y;
 
 /* Model entry point functions */
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 extern void Sense_initialize(void);
 extern void Sense_step(void);
 extern void Sense_terminate(void);
@@ -84,9 +80,6 @@ extern void Sense_terminate(void);
 //void Sense_step(void);
 //void Sense_terminate(void);
 // Your prototype or Definition 
-#ifdef __cplusplus
-}
-#endif
 
 /* Real-time Model object */
 extern RT_MODEL_Sense_T *const Sense_M;

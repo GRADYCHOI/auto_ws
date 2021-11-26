@@ -1,0 +1,107 @@
+[0.027s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.185s] [ 11%] [32m[1mLinking CXX executable compute[0m
+[0.199s] [ 44%] Built target actuate
+[0.249s] [35m[1mScanning dependencies of target sense[0m
+[0.408s] [ 55%] [32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o[0m
+[0.462s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:19:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.462s]    19 | extern [01;31m[K"C"[m[K {
+[0.462s]       |        [01;31m[K^~~[m[K
+[0.482s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:25:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KDW_Sense_T[m[K’
+[0.483s]    25 | [01;31m[KDW_Sense_T[m[K Sense_DW;
+[0.483s]       | [01;31m[K^~~~~~~~~~[m[K
+[0.483s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:28:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KExtY_Sense_T[m[K’
+[0.484s]    28 | [01;31m[KExtY_Sense_T[m[K Sense_Y;
+[0.484s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[0.484s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:31:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KRT_MODEL_Sense_T[m[K’; did you mean ‘[01m[KRTW_HEADER_Sense_h_[m[K’?
+[0.484s]    31 | [01;31m[KRT_MODEL_Sense_T[m[K Sense_M_;
+[0.485s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.485s]       | [32m[KRTW_HEADER_Sense_h_[m[K
+[0.485s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:32:1:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[KRT_MODEL_Sense_T[m[K’; did you mean ‘[01m[KRTW_HEADER_Sense_h_[m[K’?
+[0.485s]    32 | [01;31m[KRT_MODEL_Sense_T[m[K *const Sense_M = &Sense_M_;
+[0.485s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.485s]       | [32m[KRTW_HEADER_Sense_h_[m[K
+[0.485s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:[m[K In function ‘[01m[KSense_step[m[K’:
+[0.486s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:37:3:[m[K [01;31m[Kerror: [m[Kunknown type name ‘[01m[Kreal_T[m[K’
+[0.486s]    37 |   [01;31m[Kreal_T[m[K lastSin_tmp;
+[0.486s]       |   [01;31m[K^~~~~~[m[K
+[0.486s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:41:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsystemEnable[m[K’ in something not a structure or union
+[0.486s]    41 |   if (Sense_DW[01;31m[K.[m[KsystemEnable != 0) {
+[0.486s]       |               [01;31m[K^[m[K
+[0.486s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:42:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KTiming[m[K’ in something not a structure or union
+[0.486s]    42 |     lastSin_tmp = ((Sense_M[01;31m[K->[m[KTiming.clockTick0) * 0.1);
+[0.487s]       |                            [01;31m[K^~[m[K
+[0.487s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:43:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.487s]    43 |     Sense_DW[01;31m[K.[m[KlastSin = sin(lastSin_tmp);
+[0.488s]       |             [01;31m[K^[m[K
+[0.488s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:43:24:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksin[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.488s]    43 |     Sense_DW.lastSin = [01;35m[Ksin[m[K(lastSin_tmp);
+[0.488s]       |                        [01;35m[K^~~[m[K
+[0.488s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:43:24:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Ksin[m[K’
+[0.489s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:23:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Ksin[m[K’
+[0.489s]    22 | #include "Sense_private.h"
+[0.489s]   +++ |+[32m[K#include <math.h>[m[K
+[0.489s]    23 | #include <math.h>
+[0.489s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:44:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.490s]    44 |     Sense_DW[01;31m[K.[m[KlastCos = cos(lastSin_tmp);
+[0.490s]       |             [01;31m[K^[m[K
+[0.490s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kcos[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.490s]    44 |     Sense_DW.lastCos = [01;35m[Kcos[m[K(lastSin_tmp);
+[0.490s]       |                        [01;35m[K^~~[m[K
+[0.490s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kcos[m[K’
+[0.490s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<math.h>[m[K’ or provide a declaration of ‘[01m[Kcos[m[K’
+[0.490s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:45:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsystemEnable[m[K’ in something not a structure or union
+[0.490s]    45 |     Sense_DW[01;31m[K.[m[KsystemEnable = 0;
+[0.491s]       |             [01;31m[K^[m[K
+[0.491s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:51:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kout[m[K’ in something not a structure or union
+[0.491s]    51 |   Sense_Y[01;31m[K.[m[Kout = (Sense_DW.lastSin * 0.99500416527802571 + Sense_DW.lastCos *
+[0.491s]       |          [01;31m[K^[m[K
+[0.491s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:51:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.491s]    51 |   Sense_Y.out = (Sense_DW[01;31m[K.[m[KlastSin * 0.99500416527802571 + Sense_DW.lastCos *
+[0.491s]       |                          [01;31m[K^[m[K
+[0.491s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:51:67:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.491s]    51 |   Sense_Y.out = (Sense_DW.lastSin * 0.99500416527802571 + Sense_DW[01;31m[K.[m[KlastCos *
+[0.492s]       |                                                                   [01;31m[K^[m[K
+[0.492s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:53:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.492s]    53 |     (Sense_DW[01;31m[K.[m[KlastCos * 0.99500416527802571 - Sense_DW.lastSin *
+[0.492s]       |              [01;31m[K^[m[K
+[0.492s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:53:55:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.492s]    53 |     (Sense_DW.lastCos * 0.99500416527802571 - Sense_DW[01;31m[K.[m[KlastSin *
+[0.492s]       |                                                       [01;31m[K^[m[K
+[0.492s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:57:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.507s]    57 |   lastSin_tmp = Sense_DW[01;31m[K.[m[KlastSin;
+[0.507s]       |                         [01;31m[K^[m[K
+[0.508s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:58:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.508s]    58 |   Sense_DW[01;31m[K.[m[KlastSin = Sense_DW.lastSin * 0.99500416527802571 + Sense_DW.lastCos *
+[0.508s]       |           [01;31m[K^[m[K
+[0.508s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:58:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastSin[m[K’ in something not a structure or union
+[0.508s]    58 |   Sense_DW.lastSin = Sense_DW[01;31m[K.[m[KlastSin * 0.99500416527802571 + Sense_DW.lastCos *
+[0.508s]       |                              [01;31m[K^[m[K
+[0.508s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:58:71:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.508s]    58 |   Sense_DW.lastSin = Sense_DW.lastSin * 0.99500416527802571 + Sense_DW[01;31m[K.[m[KlastCos *
+[0.508s]       |                                                                       [01;31m[K^[m[K
+[0.508s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:60:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.509s]    60 |   Sense_DW[01;31m[K.[m[KlastCos = Sense_DW.lastCos * 0.99500416527802571 - lastSin_tmp *
+[0.509s]       |           [01;31m[K^[m[K
+[0.509s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:60:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KlastCos[m[K’ in something not a structure or union
+[0.509s]    60 |   Sense_DW.lastCos = Sense_DW[01;31m[K.[m[KlastCos * 0.99500416527802571 - lastSin_tmp *
+[0.509s]       |                              [01;31m[K^[m[K
+[0.509s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:71:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KTiming[m[K’ in something not a structure or union
+[0.509s]    71 |   Sense_M[01;31m[K->[m[KTiming.clockTick0++;
+[0.509s]       |          [01;31m[K^~[m[K
+[0.510s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:[m[K In function ‘[01m[KSense_initialize[m[K’:
+[0.510s] [01m[K/home/ngvedu/auto/src/auto/src/Sense.c:78:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsystemEnable[m[K’ in something not a structure or union
+[0.510s]    78 |   Sense_DW[01;31m[K.[m[KsystemEnable = 1;
+[0.510s]       |           [01;31m[K^[m[K
+[0.510s] make[2]: *** [CMakeFiles/sense.dir/build.make:63: CMakeFiles/sense.dir/src/Sense.c.o] Error 1
+[0.510s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/sense.dir/all] Error 2
+[0.510s] make[1]: *** Waiting for unfinished jobs....
+[0.833s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':
+[0.833s] compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'
+[0.833s] /usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'
+[0.833s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':
+[0.833s] compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'
+[0.837s] collect2: error: ld returned 1 exit status
+[0.843s] make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1
+[0.843s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2
+[0.843s] make: *** [Makefile:141: all] Error 2
+[0.851s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

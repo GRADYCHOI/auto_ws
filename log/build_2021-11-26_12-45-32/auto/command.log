@@ -1,0 +1,4 @@
+Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+Invoked command in '/home/ngvedu/auto/build/auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/auto/build/auto
+Invoked command in '/home/ngvedu/auto/build/auto' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/auto/build/auto

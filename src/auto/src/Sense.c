@@ -16,7 +16,6 @@
  * Code generation objectives: Unspecified
  * Validation result: Not run
  */
-
 #include "Sense.h"
 #include "Sense_private.h"
 #include <math.h>

@@ -1,0 +1,4 @@
+[ 11%] [32m[1mLinking CXX executable compute[0m
+[ 44%] Built target actuate
+[35m[1mScanning dependencies of target sense[0m
+[ 55%] [32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o[0m

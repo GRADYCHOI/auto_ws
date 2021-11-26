@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000877] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.005718] (auto) JobStarted: {'identifier': 'auto'}
+[0.028413] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.029885] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[0.031932] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src/auto/src'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/26264_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a62a7578-d413-42b7-bc11-316d0a7ea93d'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.095926] (-) TimerEvent: {}
+[0.190869] (auto) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX executable compute\x1b[0m\n'}
+[0.196620] (-) TimerEvent: {}
+[0.204668] (auto) StdoutLine: {'line': b'[ 44%] Built target actuate\n'}
+[0.254655] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sense\x1b[0m\n'}
+[0.297838] (-) TimerEvent: {}
+[0.398458] (-) TimerEvent: {}
+[0.413531] (auto) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o\x1b[0m\n'}
+[0.467876] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:19:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier or \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[0.468272] (auto) StderrLine: {'line': b'   19 | extern \x1b[01;31m\x1b[K"C"\x1b[m\x1b[K {\n'}
+[0.468433] (auto) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.487925] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:25:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KDW_Sense_T\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.488842] (auto) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[KDW_Sense_T\x1b[m\x1b[K Sense_DW;\n'}
+[0.489023] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.489464] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:28:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KExtY_Sense_T\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.489728] (auto) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[KExtY_Sense_T\x1b[m\x1b[K Sense_Y;\n'}
+[0.490046] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.490353] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:31:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KRT_MODEL_Sense_T\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KRTW_HEADER_Sense_h_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.490583] (auto) StderrLine: {'line': b'   31 | \x1b[01;31m\x1b[KRT_MODEL_Sense_T\x1b[m\x1b[K Sense_M_;\n'}
+[0.490708] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.490832] (auto) StderrLine: {'line': b'      | \x1b[32m\x1b[KRTW_HEADER_Sense_h_\x1b[m\x1b[K\n'}
+[0.490953] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:32:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[KRT_MODEL_Sense_T\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KRTW_HEADER_Sense_h_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.491084] (auto) StderrLine: {'line': b'   32 | \x1b[01;31m\x1b[KRT_MODEL_Sense_T\x1b[m\x1b[K *const Sense_M = &Sense_M_;\n'}
+[0.491203] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.491410] (auto) StderrLine: {'line': b'      | \x1b[32m\x1b[KRTW_HEADER_Sense_h_\x1b[m\x1b[K\n'}
+[0.491557] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KSense_step\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.491670] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:37:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunknown type name \xe2\x80\x98\x1b[01m\x1b[Kreal_T\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.491774] (auto) StderrLine: {'line': b'   37 |   \x1b[01;31m\x1b[Kreal_T\x1b[m\x1b[K lastSin_tmp;\n'}
+[0.491872] (auto) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.491966] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KsystemEnable\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.492067] (auto) StderrLine: {'line': b'   41 |   if (Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KsystemEnable != 0) {\n'}
+[0.492160] (auto) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.492252] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:42:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KTiming\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.492363] (auto) StderrLine: {'line': b'   42 |     lastSin_tmp = ((Sense_M\x1b[01;31m\x1b[K->\x1b[m\x1b[KTiming.clockTick0) * 0.1);\n'}
+[0.492459] (auto) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.493148] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:43:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.493544] (auto) StderrLine: {'line': b'   43 |     Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin = sin(lastSin_tmp);\n'}
+[0.493667] (auto) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.493783] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:43:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Ksin\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wimplicit-function-declaration\x1b[m\x1b[K]\n'}
+[0.493896] (auto) StderrLine: {'line': b'   43 |     Sense_DW.lastSin = \x1b[01;35m\x1b[Ksin\x1b[m\x1b[K(lastSin_tmp);\n'}
+[0.494002] (auto) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.494105] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:43:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kincompatible implicit declaration of built-in function \xe2\x80\x98\x1b[01m\x1b[Ksin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.495046] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:23:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinclude \xe2\x80\x98\x1b[01m\x1b[K<math.h>\x1b[m\x1b[K\xe2\x80\x99 or provide a declaration of \xe2\x80\x98\x1b[01m\x1b[Ksin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.495269] (auto) StderrLine: {'line': b'   22 | #include "Sense_private.h"\n'}
+[0.495386] (auto) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <math.h>\x1b[m\x1b[K\n'}
+[0.495496] (auto) StderrLine: {'line': b'   23 | #include <math.h>\n'}
+[0.495602] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.495727] (auto) StderrLine: {'line': b'   44 |     Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos = cos(lastSin_tmp);\n'}
+[0.495850] (auto) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.495965] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wimplicit-function-declaration\x1b[m\x1b[K]\n'}
+[0.496074] (auto) StderrLine: {'line': b'   44 |     Sense_DW.lastCos = \x1b[01;35m\x1b[Kcos\x1b[m\x1b[K(lastSin_tmp);\n'}
+[0.496179] (auto) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.496282] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kincompatible implicit declaration of built-in function \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.496402] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:44:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinclude \xe2\x80\x98\x1b[01m\x1b[K<math.h>\x1b[m\x1b[K\xe2\x80\x99 or provide a declaration of \xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.496517] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:45:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KsystemEnable\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.496629] (auto) StderrLine: {'line': b'   45 |     Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KsystemEnable = 0;\n'}
+[0.496734] (auto) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.496837] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:51:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kout\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.496942] (auto) StderrLine: {'line': b'   51 |   Sense_Y\x1b[01;31m\x1b[K.\x1b[m\x1b[Kout = (Sense_DW.lastSin * 0.99500416527802571 + Sense_DW.lastCos *\n'}
+[0.497047] (auto) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.497150] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:51:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.497255] (auto) StderrLine: {'line': b'   51 |   Sense_Y.out = (Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin * 0.99500416527802571 + Sense_DW.lastCos *\n'}
+[0.497358] (auto) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.497461] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:51:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.497566] (auto) StderrLine: {'line': b'   51 |   Sense_Y.out = (Sense_DW.lastSin * 0.99500416527802571 + Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos *\n'}
+[0.497671] (auto) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.497774] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:53:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.497881] (auto) StderrLine: {'line': b'   53 |     (Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos * 0.99500416527802571 - Sense_DW.lastSin *\n'}
+[0.497985] (auto) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.498087] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:53:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.498193] (auto) StderrLine: {'line': b'   53 |     (Sense_DW.lastCos * 0.99500416527802571 - Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin *\n'}
+[0.498303] (auto) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.498412] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:57:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.498514] (-) TimerEvent: {}
+[0.513293] (auto) StderrLine: {'line': b'   57 |   lastSin_tmp = Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin;\n'}
+[0.513627] (auto) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.513739] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:58:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.513845] (auto) StderrLine: {'line': b'   58 |   Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin = Sense_DW.lastSin * 0.99500416527802571 + Sense_DW.lastCos *\n'}
+[0.513946] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.514045] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:58:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastSin\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.514160] (auto) StderrLine: {'line': b'   58 |   Sense_DW.lastSin = Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastSin * 0.99500416527802571 + Sense_DW.lastCos *\n'}
+[0.514258] (auto) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.514358] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:58:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.514465] (auto) StderrLine: {'line': b'   58 |   Sense_DW.lastSin = Sense_DW.lastSin * 0.99500416527802571 + Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos *\n'}
+[0.514562] (auto) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.514657] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:60:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.514759] (auto) StderrLine: {'line': b'   60 |   Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos = Sense_DW.lastCos * 0.99500416527802571 - lastSin_tmp *\n'}
+[0.514864] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.514958] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:60:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KlastCos\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.515050] (auto) StderrLine: {'line': b'   60 |   Sense_DW.lastCos = Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KlastCos * 0.99500416527802571 - lastSin_tmp *\n'}
+[0.515146] (auto) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.515372] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:71:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KTiming\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.515499] (auto) StderrLine: {'line': b'   71 |   Sense_M\x1b[01;31m\x1b[K->\x1b[m\x1b[KTiming.clockTick0++;\n'}
+[0.515621] (auto) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.515727] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KSense_initialize\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.515843] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/Sense.c:78:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[KsystemEnable\x1b[m\x1b[K\xe2\x80\x99 in something not a structure or union\n'}
+[0.515955] (auto) StderrLine: {'line': b'   78 |   Sense_DW\x1b[01;31m\x1b[K.\x1b[m\x1b[KsystemEnable = 1;\n'}
+[0.516060] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.516164] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sense.dir/build.make:63: CMakeFiles/sense.dir/src/Sense.c.o] Error 1\n'}
+[0.516395] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/sense.dir/all] Error 2\n'}
+[0.516505] (auto) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.599641] (-) TimerEvent: {}
+[0.700244] (-) TimerEvent: {}
+[0.800985] (-) TimerEvent: {}
+[0.838922] (auto) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':\n"}
+[0.839253] (auto) StderrLine: {'line': b"compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'\n"}
+[0.839378] (auto) StderrLine: {'line': b"/usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'\n"}
+[0.839481] (auto) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':\n"}
+[0.839575] (auto) StderrLine: {'line': b"compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'\n"}
+[0.843440] (auto) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.848670] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1\n'}
+[0.848922] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2\n'}
+[0.849060] (auto) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[0.854555] (auto) CommandEnded: {'returncode': 2}
+[0.901300] (-) TimerEvent: {}
+[0.939255] (auto) JobEnded: {'identifier': 'auto', 'rc': 2}
+[0.947719] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.055s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.248s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.567s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.575s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.791s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.535s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.783s] -- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)
+[5.921s] -- Configuring done
+[6.006s] -- Generating done
+[6.017s] -- Build files have been written to: /home/ngvedu/auto/build/auto
+[6.112s] [35m[1mScanning dependencies of target compute[0m
+[6.207s] [ 11%] [32mBuilding C object CMakeFiles/actuate.dir/src/Actuate.c.o[0m
+[6.236s] [ 22%] [32mBuilding C object CMakeFiles/compute.dir/src/Compute.c.o[0m
+[6.601s] [ 33%] [32mBuilding CXX object CMakeFiles/compute.dir/src/compute_node.cpp.o[0m
+[6.624s] [ 44%] [32mBuilding CXX object CMakeFiles/actuate.dir/src/actuate_node.cpp.o[0m
+[19.837s] [ 55%] [32m[1mLinking CXX executable compute[0m
+[20.194s] [ 66%] [32m[1mLinking CXX executable actuate[0m
+[20.876s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':
+[20.876s] compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'
+[20.876s] /usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'
+[20.876s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':
+[20.877s] compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'
+[20.886s] collect2: error: ld returned 1 exit status
+[20.886s] make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1
+[20.886s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2
+[20.887s] make[1]: *** Waiting for unfinished jobs....
+[21.115s] [ 66%] Built target actuate
+[21.115s] make: *** [Makefile:141: all] Error 2
+[21.122s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

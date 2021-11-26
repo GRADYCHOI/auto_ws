@@ -20,7 +20,6 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/ngvedu/auto/src/auto/include/auto"
-  "/home/ngvedu/auto/src/auto/include"
   "/opt/ros/foxy/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
@@ -39,7 +38,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ngvedu/auto/src/auto/include/auto"
-  "/home/ngvedu/auto/src/auto/include"
   "/opt/ros/foxy/include"
   )
 

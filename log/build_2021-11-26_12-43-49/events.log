@@ -1,0 +1,505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000875] (auto) JobQueued: {'identifier': 'auto', 'dependencies': OrderedDict()}
+[0.000964] (auto) JobStarted: {'identifier': 'auto'}
+[0.016775] (auto) JobProgress: {'identifier': 'auto', 'progress': 'cmake'}
+[0.019371] (auto) JobProgress: {'identifier': 'auto', 'progress': 'build'}
+[0.022559] (auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/auto/build/auto', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/auto/build/auto', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/auto/src'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/26264_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a62a7578-d413-42b7-bc11-316d0a7ea93d'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/auto/build/auto'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.089938] (-) TimerEvent: {}
+[0.196169] (-) TimerEvent: {}
+[0.207268] (auto) StdoutLine: {'line': b'[ 33%] Built target actuate\n'}
+[0.210897] (auto) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable compute\x1b[0m\n'}
+[0.247435] (auto) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sense\x1b[0m\n'}
+[0.296975] (-) TimerEvent: {}
+[0.366497] (auto) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o\x1b[0m\n'}
+[0.397270] (-) TimerEvent: {}
+[0.497894] (-) TimerEvent: {}
+[0.544356] (auto) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o\x1b[0m\n'}
+[0.598060] (-) TimerEvent: {}
+[0.662496] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:4:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.662952] (auto) StderrLine: {'line': b'    4 | extern \x1b[01;35m\x1b[K"\x1b[m\x1b[KC {\n'}
+[0.663084] (auto) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.663193] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:4:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.663304] (auto) StderrLine: {'line': b'    4 | extern \x1b[01;31m\x1b[K"C {\x1b[m\x1b[K\n'}
+[0.663410] (auto) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.698252] (-) TimerEvent: {}
+[0.798777] (-) TimerEvent: {}
+[0.899448] (-) TimerEvent: {}
+[1.000013] (-) TimerEvent: {}
+[1.100528] (-) TimerEvent: {}
+[1.116943] (auto) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':\n"}
+[1.117288] (auto) StderrLine: {'line': b"compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'\n"}
+[1.117447] (auto) StderrLine: {'line': b"/usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'\n"}
+[1.117585] (auto) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':\n"}
+[1.117801] (auto) StderrLine: {'line': b"compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'\n"}
+[1.124768] (auto) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.125176] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1\n'}
+[1.125328] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2\n'}
+[1.125450] (auto) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.200791] (-) TimerEvent: {}
+[1.241926] (auto) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/features.h:461\x1b[m\x1b[K,\n'}
+[1.242376] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39\x1b[m\x1b[K,\n'}
+[1.242541] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524\x1b[m\x1b[K,\n'}
+[1.242666] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:38\x1b[m\x1b[K,\n'}
+[1.242785] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.242898] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:34:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before string constant\n'}
+[1.243006] (auto) StderrLine: {'line': b'   34 | \x1b[01;31m\x1b[K__BEGIN_DECLS\x1b[m\x1b[K\n'}
+[1.243123] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.243613] (auto) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/math.h:36\x1b[m\x1b[K,\n'}
+[1.243792] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngvedu/auto/src/auto/include/auto/Sense.h:22\x1b[m\x1b[K,\n'}
+[1.243933] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:5\x1b[m\x1b[K:\n'}
+[1.244045] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:83:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::acos\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.244151] (auto) StderrLine: {'line': b'   83 |   using ::\x1b[01;31m\x1b[Kacos\x1b[m\x1b[K;\n'}
+[1.244258] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.244587] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:102:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::asin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.244750] (auto) StderrLine: {'line': b'  102 |   using ::\x1b[01;31m\x1b[Kasin\x1b[m\x1b[K;\n'}
+[1.244873] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.245394] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:121:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::atan\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.245573] (auto) StderrLine: {'line': b'  121 |   using ::\x1b[01;31m\x1b[Katan\x1b[m\x1b[K;\n'}
+[1.245692] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.246119] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:140:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::atan2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.246293] (auto) StderrLine: {'line': b'  140 |   using ::\x1b[01;31m\x1b[Katan2\x1b[m\x1b[K;\n'}
+[1.246427] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.247072] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:161:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::ceil\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.247327] (auto) StderrLine: {'line': b'  161 |   using ::\x1b[01;31m\x1b[Kceil\x1b[m\x1b[K;\n'}
+[1.247578] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.247884] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:180:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::cos\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.248188] (auto) StderrLine: {'line': b'  180 |   using ::\x1b[01;31m\x1b[Kcos\x1b[m\x1b[K;\n'}
+[1.248492] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.248647] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:199:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::cosh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.248939] (auto) StderrLine: {'line': b'  199 |   using ::\x1b[01;31m\x1b[Kcosh\x1b[m\x1b[K;\n'}
+[1.249242] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.249547] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:218:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::exp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.249871] (auto) StderrLine: {'line': b'  218 |   using ::\x1b[01;31m\x1b[Kexp\x1b[m\x1b[K;\n'}
+[1.250090] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.250321] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:237:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fabs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.250560] (auto) StderrLine: {'line': b'  237 |   using ::\x1b[01;31m\x1b[Kfabs\x1b[m\x1b[K;\n'}
+[1.250786] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.251025] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:256:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::floor\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.251295] (auto) StderrLine: {'line': b'  256 |   using ::\x1b[01;31m\x1b[Kfloor\x1b[m\x1b[K;\n'}
+[1.251426] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.252234] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:275:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmod\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.252374] (auto) StderrLine: {'line': b'  275 |   using ::\x1b[01;31m\x1b[Kfmod\x1b[m\x1b[K;\n'}
+[1.252503] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.252635] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:296:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::frexp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.252769] (auto) StderrLine: {'line': b'  296 |   using ::\x1b[01;31m\x1b[Kfrexp\x1b[m\x1b[K;\n'}
+[1.252901] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.253028] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:315:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::ldexp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.253169] (auto) StderrLine: {'line': b'  315 |   using ::\x1b[01;31m\x1b[Kldexp\x1b[m\x1b[K;\n'}
+[1.253296] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.253424] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:334:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.253560] (auto) StderrLine: {'line': b'  334 |   using ::\x1b[01;31m\x1b[Klog\x1b[m\x1b[K;\n'}
+[1.253689] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.253817] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:353:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log10\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.253947] (auto) StderrLine: {'line': b'  353 |   using ::\x1b[01;31m\x1b[Klog10\x1b[m\x1b[K;\n'}
+[1.254074] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.254280] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:372:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::modf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.254445] (auto) StderrLine: {'line': b'  372 |   using ::\x1b[01;31m\x1b[Kmodf\x1b[m\x1b[K;\n'}
+[1.254576] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.254709] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:384:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::pow\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.254841] (auto) StderrLine: {'line': b'  384 |   using ::\x1b[01;31m\x1b[Kpow\x1b[m\x1b[K;\n'}
+[1.254967] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.255097] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:421:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::sin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.255226] (auto) StderrLine: {'line': b'  421 |   using ::\x1b[01;31m\x1b[Ksin\x1b[m\x1b[K;\n'}
+[1.255367] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.255493] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:440:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::sinh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.255620] (auto) StderrLine: {'line': b'  440 |   using ::\x1b[01;31m\x1b[Ksinh\x1b[m\x1b[K;\n'}
+[1.255743] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.258166] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:459:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::sqrt\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.258313] (auto) StderrLine: {'line': b'  459 |   using ::\x1b[01;31m\x1b[Ksqrt\x1b[m\x1b[K;\n'}
+[1.258607] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.258727] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:478:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::tan\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.258838] (auto) StderrLine: {'line': b'  478 |   using ::\x1b[01;31m\x1b[Ktan\x1b[m\x1b[K;\n'}
+[1.258943] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.259049] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:497:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::tanh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.259291] (auto) StderrLine: {'line': b'  497 |   using ::\x1b[01;31m\x1b[Ktanh\x1b[m\x1b[K;\n'}
+[1.259434] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.259544] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1065:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::double_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.259650] (auto) StderrLine: {'line': b' 1065 |   using ::\x1b[01;31m\x1b[Kdouble_t\x1b[m\x1b[K;\n'}
+[1.259755] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.259856] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1066:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::float_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.261380] (auto) StderrLine: {'line': b' 1066 |   using ::\x1b[01;31m\x1b[Kfloat_t\x1b[m\x1b[K;\n'}
+[1.261590] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.261712] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1069:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::acosh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.261824] (auto) StderrLine: {'line': b' 1069 |   using ::\x1b[01;31m\x1b[Kacosh\x1b[m\x1b[K;\n'}
+[1.261932] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.262038] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1070:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::acoshf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.262144] (auto) StderrLine: {'line': b' 1070 |   using ::\x1b[01;31m\x1b[Kacoshf\x1b[m\x1b[K;\n'}
+[1.262247] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.262351] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1071:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::acoshl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.262456] (auto) StderrLine: {'line': b' 1071 |   using ::\x1b[01;31m\x1b[Kacoshl\x1b[m\x1b[K;\n'}
+[1.262560] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.262665] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1073:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::asinh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.262769] (auto) StderrLine: {'line': b' 1073 |   using ::\x1b[01;31m\x1b[Kasinh\x1b[m\x1b[K;\n'}
+[1.262872] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.262975] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1074:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::asinhf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.263080] (auto) StderrLine: {'line': b' 1074 |   using ::\x1b[01;31m\x1b[Kasinhf\x1b[m\x1b[K;\n'}
+[1.263194] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.263318] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1075:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::asinhl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.263527] (auto) StderrLine: {'line': b' 1075 |   using ::\x1b[01;31m\x1b[Kasinhl\x1b[m\x1b[K;\n'}
+[1.263644] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.263750] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1077:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::atanh\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.263865] (auto) StderrLine: {'line': b' 1077 |   using ::\x1b[01;31m\x1b[Katanh\x1b[m\x1b[K;\n'}
+[1.263970] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.264074] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1078:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::atanhf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.264189] (auto) StderrLine: {'line': b' 1078 |   using ::\x1b[01;31m\x1b[Katanhf\x1b[m\x1b[K;\n'}
+[1.264300] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.264416] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1079:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::atanhl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.264543] (auto) StderrLine: {'line': b' 1079 |   using ::\x1b[01;31m\x1b[Katanhl\x1b[m\x1b[K;\n'}
+[1.264665] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.264792] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1081:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::cbrt\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.264918] (auto) StderrLine: {'line': b' 1081 |   using ::\x1b[01;31m\x1b[Kcbrt\x1b[m\x1b[K;\n'}
+[1.265046] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.265172] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1082:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::cbrtf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.265301] (auto) StderrLine: {'line': b' 1082 |   using ::\x1b[01;31m\x1b[Kcbrtf\x1b[m\x1b[K;\n'}
+[1.265425] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.265535] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1083:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::cbrtl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.265643] (auto) StderrLine: {'line': b' 1083 |   using ::\x1b[01;31m\x1b[Kcbrtl\x1b[m\x1b[K;\n'}
+[1.265746] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.265849] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1085:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::copysign\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.265956] (auto) StderrLine: {'line': b' 1085 |   using ::\x1b[01;31m\x1b[Kcopysign\x1b[m\x1b[K;\n'}
+[1.266059] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.266162] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1086:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::copysignf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.266266] (auto) StderrLine: {'line': b' 1086 |   using ::\x1b[01;31m\x1b[Kcopysignf\x1b[m\x1b[K;\n'}
+[1.266369] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.266475] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1087:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::copysignl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.266580] (auto) StderrLine: {'line': b' 1087 |   using ::\x1b[01;31m\x1b[Kcopysignl\x1b[m\x1b[K;\n'}
+[1.266684] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.266798] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1089:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.266903] (auto) StderrLine: {'line': b' 1089 |   using ::\x1b[01;31m\x1b[Kerf\x1b[m\x1b[K;\n'}
+[1.267004] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.267106] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1090:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erff\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.267210] (auto) StderrLine: {'line': b' 1090 |   using ::\x1b[01;31m\x1b[Kerff\x1b[m\x1b[K;\n'}
+[1.267311] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.267413] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1091:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erfl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.267523] (auto) StderrLine: {'line': b' 1091 |   using ::\x1b[01;31m\x1b[Kerfl\x1b[m\x1b[K;\n'}
+[1.267747] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.267897] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1093:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erfc\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.268006] (auto) StderrLine: {'line': b' 1093 |   using ::\x1b[01;31m\x1b[Kerfc\x1b[m\x1b[K;\n'}
+[1.268109] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.268294] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1094:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erfcf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.268431] (auto) StderrLine: {'line': b' 1094 |   using ::\x1b[01;31m\x1b[Kerfcf\x1b[m\x1b[K;\n'}
+[1.268561] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.268679] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1095:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::erfcl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.268801] (auto) StderrLine: {'line': b' 1095 |   using ::\x1b[01;31m\x1b[Kerfcl\x1b[m\x1b[K;\n'}
+[1.268926] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.269049] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1097:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::exp2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.269174] (auto) StderrLine: {'line': b' 1097 |   using ::\x1b[01;31m\x1b[Kexp2\x1b[m\x1b[K;\n'}
+[1.269297] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.269417] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1098:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::exp2f\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.269538] (auto) StderrLine: {'line': b' 1098 |   using ::\x1b[01;31m\x1b[Kexp2f\x1b[m\x1b[K;\n'}
+[1.269661] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.269784] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1099:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::exp2l\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.269910] (auto) StderrLine: {'line': b' 1099 |   using ::\x1b[01;31m\x1b[Kexp2l\x1b[m\x1b[K;\n'}
+[1.270034] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.270160] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1101:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::expm1\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.270298] (auto) StderrLine: {'line': b' 1101 |   using ::\x1b[01;31m\x1b[Kexpm1\x1b[m\x1b[K;\n'}
+[1.270438] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.270567] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1102:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::expm1f\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.270702] (auto) StderrLine: {'line': b' 1102 |   using ::\x1b[01;31m\x1b[Kexpm1f\x1b[m\x1b[K;\n'}
+[1.270831] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.270968] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1103:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::expm1l\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.271096] (auto) StderrLine: {'line': b' 1103 |   using ::\x1b[01;31m\x1b[Kexpm1l\x1b[m\x1b[K;\n'}
+[1.271221] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.271345] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1105:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fdim\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.271476] (auto) StderrLine: {'line': b' 1105 |   using ::\x1b[01;31m\x1b[Kfdim\x1b[m\x1b[K;\n'}
+[1.271604] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.271732] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1106:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fdimf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.271860] (auto) StderrLine: {'line': b' 1106 |   using ::\x1b[01;31m\x1b[Kfdimf\x1b[m\x1b[K;\n'}
+[1.271986] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.272111] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1107:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fdiml\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.272324] (auto) StderrLine: {'line': b' 1107 |   using ::\x1b[01;31m\x1b[Kfdiml\x1b[m\x1b[K;\n'}
+[1.272490] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.272624] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1109:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fma\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.272758] (auto) StderrLine: {'line': b' 1109 |   using ::\x1b[01;31m\x1b[Kfma\x1b[m\x1b[K;\n'}
+[1.272888] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.273015] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1110:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmaf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.273140] (auto) StderrLine: {'line': b' 1110 |   using ::\x1b[01;31m\x1b[Kfmaf\x1b[m\x1b[K;\n'}
+[1.273263] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.273397] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1111:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmal\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.273529] (auto) StderrLine: {'line': b' 1111 |   using ::\x1b[01;31m\x1b[Kfmal\x1b[m\x1b[K;\n'}
+[1.273652] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.273754] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1113:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmax\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.273853] (auto) StderrLine: {'line': b' 1113 |   using ::\x1b[01;31m\x1b[Kfmax\x1b[m\x1b[K;\n'}
+[1.273955] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.274061] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1114:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmaxf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.274185] (auto) StderrLine: {'line': b' 1114 |   using ::\x1b[01;31m\x1b[Kfmaxf\x1b[m\x1b[K;\n'}
+[1.274306] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.274418] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1115:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmaxl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.274640] (auto) StderrLine: {'line': b' 1115 |   using ::\x1b[01;31m\x1b[Kfmaxl\x1b[m\x1b[K;\n'}
+[1.274766] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.274881] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1117:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fmin\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.274984] (auto) StderrLine: {'line': b' 1117 |   using ::\x1b[01;31m\x1b[Kfmin\x1b[m\x1b[K;\n'}
+[1.275078] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.275172] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1118:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fminf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.275277] (auto) StderrLine: {'line': b' 1118 |   using ::\x1b[01;31m\x1b[Kfminf\x1b[m\x1b[K;\n'}
+[1.275373] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.275467] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1119:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fminl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.275565] (auto) StderrLine: {'line': b' 1119 |   using ::\x1b[01;31m\x1b[Kfminl\x1b[m\x1b[K;\n'}
+[1.275661] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.275757] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1121:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::hypot\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.275852] (auto) StderrLine: {'line': b' 1121 |   using ::\x1b[01;31m\x1b[Khypot\x1b[m\x1b[K;\n'}
+[1.276406] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.276546] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1122:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::hypotf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.276652] (auto) StderrLine: {'line': b' 1122 |   using ::\x1b[01;31m\x1b[Khypotf\x1b[m\x1b[K;\n'}
+[1.276752] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.276864] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1123:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::hypotl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.276984] (auto) StderrLine: {'line': b' 1123 |   using ::\x1b[01;31m\x1b[Khypotl\x1b[m\x1b[K;\n'}
+[1.277100] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.277331] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1125:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::ilogb\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.277461] (auto) StderrLine: {'line': b' 1125 |   using ::\x1b[01;31m\x1b[Kilogb\x1b[m\x1b[K;\n'}
+[1.277583] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.277851] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1126:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::ilogbf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.277992] (auto) StderrLine: {'line': b' 1126 |   using ::\x1b[01;31m\x1b[Kilogbf\x1b[m\x1b[K;\n'}
+[1.278105] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.278323] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1127:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::ilogbl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.278528] (auto) StderrLine: {'line': b' 1127 |   using ::\x1b[01;31m\x1b[Kilogbl\x1b[m\x1b[K;\n'}
+[1.278712] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.278842] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1129:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lgamma\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.278958] (auto) StderrLine: {'line': b' 1129 |   using ::\x1b[01;31m\x1b[Klgamma\x1b[m\x1b[K;\n'}
+[1.279228] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.279351] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1130:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lgammaf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.279459] (auto) StderrLine: {'line': b' 1130 |   using ::\x1b[01;31m\x1b[Klgammaf\x1b[m\x1b[K;\n'}
+[1.279690] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.279831] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1131:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lgammal\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.279941] (auto) StderrLine: {'line': b' 1131 |   using ::\x1b[01;31m\x1b[Klgammal\x1b[m\x1b[K;\n'}
+[1.280044] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.280148] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1134:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llrint\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.280253] (auto) StderrLine: {'line': b' 1134 |   using ::\x1b[01;31m\x1b[Kllrint\x1b[m\x1b[K;\n'}
+[1.280355] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.280458] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1135:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llrintf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.280562] (auto) StderrLine: {'line': b' 1135 |   using ::\x1b[01;31m\x1b[Kllrintf\x1b[m\x1b[K;\n'}
+[1.280664] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.280766] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1136:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llrintl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.280871] (auto) StderrLine: {'line': b' 1136 |   using ::\x1b[01;31m\x1b[Kllrintl\x1b[m\x1b[K;\n'}
+[1.280975] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.281077] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1138:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llround\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.281178] (auto) StderrLine: {'line': b' 1138 |   using ::\x1b[01;31m\x1b[Kllround\x1b[m\x1b[K;\n'}
+[1.281280] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.281383] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1139:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llroundf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.281497] (auto) StderrLine: {'line': b' 1139 |   using ::\x1b[01;31m\x1b[Kllroundf\x1b[m\x1b[K;\n'}
+[1.281609] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.281716] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1140:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::llroundl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.281919] (auto) StderrLine: {'line': b' 1140 |   using ::\x1b[01;31m\x1b[Kllroundl\x1b[m\x1b[K;\n'}
+[1.282038] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.282153] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1143:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log1p\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.282259] (auto) StderrLine: {'line': b' 1143 |   using ::\x1b[01;31m\x1b[Klog1p\x1b[m\x1b[K;\n'}
+[1.282364] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.282466] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1144:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log1pf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.282570] (auto) StderrLine: {'line': b' 1144 |   using ::\x1b[01;31m\x1b[Klog1pf\x1b[m\x1b[K;\n'}
+[1.282797] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.282920] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1145:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log1pl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283027] (auto) StderrLine: {'line': b' 1145 |   using ::\x1b[01;31m\x1b[Klog1pl\x1b[m\x1b[K;\n'}
+[1.283130] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.283233] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1147:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283337] (auto) StderrLine: {'line': b' 1147 |   using ::\x1b[01;31m\x1b[Klog2\x1b[m\x1b[K;\n'}
+[1.283440] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.283543] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1148:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log2f\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283647] (auto) StderrLine: {'line': b' 1148 |   using ::\x1b[01;31m\x1b[Klog2f\x1b[m\x1b[K;\n'}
+[1.283751] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.283853] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1149:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::log2l\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.283975] (auto) StderrLine: {'line': b' 1149 |   using ::\x1b[01;31m\x1b[Klog2l\x1b[m\x1b[K;\n'}
+[1.284081] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.284184] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1151:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::logb\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.284287] (auto) StderrLine: {'line': b' 1151 |   using ::\x1b[01;31m\x1b[Klogb\x1b[m\x1b[K;\n'}
+[1.284389] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.284491] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1152:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::logbf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.284593] (auto) StderrLine: {'line': b' 1152 |   using ::\x1b[01;31m\x1b[Klogbf\x1b[m\x1b[K;\n'}
+[1.284693] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.285461] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1153:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::logbl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.285585] (auto) StderrLine: {'line': b' 1153 |   using ::\x1b[01;31m\x1b[Klogbl\x1b[m\x1b[K;\n'}
+[1.285713] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.285835] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1155:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lrint\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.285959] (auto) StderrLine: {'line': b' 1155 |   using ::\x1b[01;31m\x1b[Klrint\x1b[m\x1b[K;\n'}
+[1.286094] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.286284] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1156:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lrintf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.286413] (auto) StderrLine: {'line': b' 1156 |   using ::\x1b[01;31m\x1b[Klrintf\x1b[m\x1b[K;\n'}
+[1.286524] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.286635] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1157:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lrintl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.286942] (auto) StderrLine: {'line': b' 1157 |   using ::\x1b[01;31m\x1b[Klrintl\x1b[m\x1b[K;\n'}
+[1.287071] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.287184] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1159:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lround\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.287298] (auto) StderrLine: {'line': b' 1159 |   using ::\x1b[01;31m\x1b[Klround\x1b[m\x1b[K;\n'}
+[1.287417] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.287533] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1160:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lroundf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.287649] (auto) StderrLine: {'line': b' 1160 |   using ::\x1b[01;31m\x1b[Klroundf\x1b[m\x1b[K;\n'}
+[1.287838] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.287962] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1161:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::lroundl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.288084] (auto) StderrLine: {'line': b' 1161 |   using ::\x1b[01;31m\x1b[Klroundl\x1b[m\x1b[K;\n'}
+[1.288199] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.288314] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1163:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nan\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.288435] (auto) StderrLine: {'line': b' 1163 |   using ::\x1b[01;31m\x1b[Knan\x1b[m\x1b[K;\n'}
+[1.288564] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.288686] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1164:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nanf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.288808] (auto) StderrLine: {'line': b' 1164 |   using ::\x1b[01;31m\x1b[Knanf\x1b[m\x1b[K;\n'}
+[1.288926] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.289046] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1165:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nanl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.289165] (auto) StderrLine: {'line': b' 1165 |   using ::\x1b[01;31m\x1b[Knanl\x1b[m\x1b[K;\n'}
+[1.289284] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.289399] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1167:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nearbyint\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.289520] (auto) StderrLine: {'line': b' 1167 |   using ::\x1b[01;31m\x1b[Knearbyint\x1b[m\x1b[K;\n'}
+[1.289637] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.289753] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1168:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nearbyintf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.289884] (auto) StderrLine: {'line': b' 1168 |   using ::\x1b[01;31m\x1b[Knearbyintf\x1b[m\x1b[K;\n'}
+[1.290017] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290140] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1169:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nearbyintl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.290261] (auto) StderrLine: {'line': b' 1169 |   using ::\x1b[01;31m\x1b[Knearbyintl\x1b[m\x1b[K;\n'}
+[1.290378] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290499] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1171:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nextafter\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.290623] (auto) StderrLine: {'line': b' 1171 |   using ::\x1b[01;31m\x1b[Knextafter\x1b[m\x1b[K;\n'}
+[1.290743] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.290859] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1172:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nextafterf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.290971] (auto) StderrLine: {'line': b' 1172 |   using ::\x1b[01;31m\x1b[Knextafterf\x1b[m\x1b[K;\n'}
+[1.291082] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.291190] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1173:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nextafterl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.291303] (auto) StderrLine: {'line': b' 1173 |   using ::\x1b[01;31m\x1b[Knextafterl\x1b[m\x1b[K;\n'}
+[1.291416] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.291531] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1175:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nexttoward\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.291655] (auto) StderrLine: {'line': b' 1175 |   using ::\x1b[01;31m\x1b[Knexttoward\x1b[m\x1b[K;\n'}
+[1.291858] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292020] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1176:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nexttowardf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.292145] (auto) StderrLine: {'line': b' 1176 |   using ::\x1b[01;31m\x1b[Knexttowardf\x1b[m\x1b[K;\n'}
+[1.292264] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292377] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1177:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nexttowardl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.292492] (auto) StderrLine: {'line': b' 1177 |   using ::\x1b[01;31m\x1b[Knexttowardl\x1b[m\x1b[K;\n'}
+[1.292603] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.292712] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1179:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remainder\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.292826] (auto) StderrLine: {'line': b' 1179 |   using ::\x1b[01;31m\x1b[Kremainder\x1b[m\x1b[K;\n'}
+[1.292943] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293062] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1180:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remainderf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.293181] (auto) StderrLine: {'line': b' 1180 |   using ::\x1b[01;31m\x1b[Kremainderf\x1b[m\x1b[K;\n'}
+[1.293294] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293425] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1181:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remainderl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.293558] (auto) StderrLine: {'line': b' 1181 |   using ::\x1b[01;31m\x1b[Kremainderl\x1b[m\x1b[K;\n'}
+[1.293676] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.293789] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1183:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remquo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.293901] (auto) StderrLine: {'line': b' 1183 |   using ::\x1b[01;31m\x1b[Kremquo\x1b[m\x1b[K;\n'}
+[1.294033] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.294153] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1184:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remquof\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.294274] (auto) StderrLine: {'line': b' 1184 |   using ::\x1b[01;31m\x1b[Kremquof\x1b[m\x1b[K;\n'}
+[1.294396] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.294518] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1185:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::remquol\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.294635] (auto) StderrLine: {'line': b' 1185 |   using ::\x1b[01;31m\x1b[Kremquol\x1b[m\x1b[K;\n'}
+[1.294755] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.294867] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1187:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::rint\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.294984] (auto) StderrLine: {'line': b' 1187 |   using ::\x1b[01;31m\x1b[Krint\x1b[m\x1b[K;\n'}
+[1.295103] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.295231] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1188:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::rintf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.295349] (auto) StderrLine: {'line': b' 1188 |   using ::\x1b[01;31m\x1b[Krintf\x1b[m\x1b[K;\n'}
+[1.295462] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.295571] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1189:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::rintl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.295684] (auto) StderrLine: {'line': b' 1189 |   using ::\x1b[01;31m\x1b[Krintl\x1b[m\x1b[K;\n'}
+[1.295799] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.295917] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1191:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::round\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.296034] (auto) StderrLine: {'line': b' 1191 |   using ::\x1b[01;31m\x1b[Kround\x1b[m\x1b[K;\n'}
+[1.296150] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.296262] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1192:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::roundf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.296377] (auto) StderrLine: {'line': b' 1192 |   using ::\x1b[01;31m\x1b[Kroundf\x1b[m\x1b[K;\n'}
+[1.296486] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.296597] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1193:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::roundl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.296714] (auto) StderrLine: {'line': b' 1193 |   using ::\x1b[01;31m\x1b[Kroundl\x1b[m\x1b[K;\n'}
+[1.296930] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.297083] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1195:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalbln\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.297214] (auto) StderrLine: {'line': b' 1195 |   using ::\x1b[01;31m\x1b[Kscalbln\x1b[m\x1b[K;\n'}
+[1.297335] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.297451] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1196:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalblnf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.297565] (auto) StderrLine: {'line': b' 1196 |   using ::\x1b[01;31m\x1b[Kscalblnf\x1b[m\x1b[K;\n'}
+[1.298038] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.298207] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1197:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalblnl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.298310] (auto) StderrLine: {'line': b' 1197 |   using ::\x1b[01;31m\x1b[Kscalblnl\x1b[m\x1b[K;\n'}
+[1.298406] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.298524] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1199:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalbn\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.298667] (auto) StderrLine: {'line': b' 1199 |   using ::\x1b[01;31m\x1b[Kscalbn\x1b[m\x1b[K;\n'}
+[1.298770] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.298872] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1200:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalbnf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.298978] (auto) StderrLine: {'line': b' 1200 |   using ::\x1b[01;31m\x1b[Kscalbnf\x1b[m\x1b[K;\n'}
+[1.299080] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.299182] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1201:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::scalbnl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.299284] (auto) StderrLine: {'line': b' 1201 |   using ::\x1b[01;31m\x1b[Kscalbnl\x1b[m\x1b[K;\n'}
+[1.299393] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.299506] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1203:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::tgamma\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.299611] (auto) StderrLine: {'line': b' 1203 |   using ::\x1b[01;31m\x1b[Ktgamma\x1b[m\x1b[K;\n'}
+[1.299713] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.299815] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1204:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::tgammaf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.300062] (auto) StderrLine: {'line': b' 1204 |   using ::\x1b[01;31m\x1b[Ktgammaf\x1b[m\x1b[K;\n'}
+[1.300200] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.300306] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1205:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::tgammal\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.300413] (auto) StderrLine: {'line': b' 1205 |   using ::\x1b[01;31m\x1b[Ktgammal\x1b[m\x1b[K;\n'}
+[1.300516] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.300617] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1207:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::trunc\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.300729] (auto) StderrLine: {'line': b' 1207 |   using ::\x1b[01;31m\x1b[Ktrunc\x1b[m\x1b[K;\n'}
+[1.300834] (-) TimerEvent: {}
+[1.301193] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.301349] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1208:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::truncf\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.301461] (auto) StderrLine: {'line': b' 1208 |   using ::\x1b[01;31m\x1b[Ktruncf\x1b[m\x1b[K;\n'}
+[1.301566] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.301678] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cmath:1209:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::truncl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.301787] (auto) StderrLine: {'line': b' 1209 |   using ::\x1b[01;31m\x1b[Ktruncl\x1b[m\x1b[K;\n'}
+[1.301894] (auto) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.301997] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:6:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.302183] (auto) StderrLine: {'line': b'    6 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.302316] (auto) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.401160] (-) TimerEvent: {}
+[1.501851] (-) TimerEvent: {}
+[1.602458] (-) TimerEvent: {}
+[1.703110] (-) TimerEvent: {}
+[1.803768] (-) TimerEvent: {}
+[1.904448] (-) TimerEvent: {}
+[2.005126] (-) TimerEvent: {}
+[2.105825] (-) TimerEvent: {}
+[2.152371] (auto) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.152742] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.152912] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.153059] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.153184] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.153309] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.153433] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.153556] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.153677] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.153799] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.154194] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.154353] (auto) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:14\x1b[m\x1b[K:\n'}
+[2.154487] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:34:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knano\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.154624] (auto) StderrLine: {'line': b'   34 |   double average = std::\x1b[01;31m\x1b[Knan\x1b[m\x1b[K("");\n'}
+[2.154781] (auto) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.154924] (auto) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Knano\x1b[m\x1b[K\n'}
+[2.158356] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:35:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knano\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.158555] (auto) StderrLine: {'line': b'   35 |   double min = std::\x1b[01;31m\x1b[Knan\x1b[m\x1b[K("");\n'}
+[2.158686] (auto) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.158812] (auto) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Knano\x1b[m\x1b[K\n'}
+[2.158936] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:36:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knano\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.159068] (auto) StderrLine: {'line': b'   36 |   double max = std::\x1b[01;31m\x1b[Knan\x1b[m\x1b[K("");\n'}
+[2.159192] (auto) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.159310] (auto) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Knano\x1b[m\x1b[K\n'}
+[2.159430] (auto) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:37:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knano\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.159559] (auto) StderrLine: {'line': b'   37 |   double standard_deviation = std::\x1b[01;31m\x1b[Knan\x1b[m\x1b[K("");\n'}
+[2.159676] (auto) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.159794] (auto) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Knano\x1b[m\x1b[K\n'}
+[2.206102] (-) TimerEvent: {}
+[2.307044] (-) TimerEvent: {}
+[2.408269] (-) TimerEvent: {}
+[2.508929] (-) TimerEvent: {}
+[2.609579] (-) TimerEvent: {}
+[2.710220] (-) TimerEvent: {}
+[2.811280] (-) TimerEvent: {}
+[2.911989] (-) TimerEvent: {}
+[3.012624] (-) TimerEvent: {}
+[3.113299] (-) TimerEvent: {}
+[3.213962] (-) TimerEvent: {}
+[3.314601] (-) TimerEvent: {}
+[3.415277] (-) TimerEvent: {}
+[3.515910] (-) TimerEvent: {}
+[3.616567] (-) TimerEvent: {}
+[3.717283] (-) TimerEvent: {}
+[3.817940] (-) TimerEvent: {}
+[3.918544] (-) TimerEvent: {}
+[4.019149] (-) TimerEvent: {}
+[4.119887] (-) TimerEvent: {}
+[4.220490] (-) TimerEvent: {}
+[4.314735] (auto) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sense.dir/build.make:76: CMakeFiles/sense.dir/src/sense_node.cpp.o] Error 1\n'}
+[4.315156] (auto) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/sense.dir/all] Error 2\n'}
+[4.315322] (auto) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.319189] (auto) CommandEnded: {'returncode': 2}
+[4.322845] (-) TimerEvent: {}
+[4.424584] (-) TimerEvent: {}
+[4.432238] (auto) JobEnded: {'identifier': 'auto', 'rc': 2}
+[4.434948] (-) EventReactorShutdown: {}

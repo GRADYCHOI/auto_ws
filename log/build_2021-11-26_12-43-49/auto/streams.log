@@ -1,0 +1,454 @@
+[0.030s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.207s] [ 33%] Built target actuate
+[0.210s] [ 44%] [32m[1mLinking CXX executable compute[0m
+[0.247s] [35m[1mScanning dependencies of target sense[0m
+[0.366s] [ 55%] [32mBuilding C object CMakeFiles/sense.dir/src/Sense.c.o[0m
+[0.544s] [ 66%] [32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o[0m
+[0.662s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:4:8:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.662s]     4 | extern [01;35m[K"[m[KC {
+[0.662s]       |        [01;35m[K^[m[K
+[0.662s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:4:8:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.662s]     4 | extern [01;31m[K"C {[m[K
+[0.663s]       |        [01;31m[K^~~~[m[K
+[1.116s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':
+[1.116s] compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'
+[1.117s] /usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'
+[1.117s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':
+[1.117s] compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'
+[1.124s] collect2: error: ld returned 1 exit status
+[1.124s] make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1
+[1.124s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2
+[1.125s] make[1]: *** Waiting for unfinished jobs....
+[1.241s] In file included from [01m[K/usr/include/features.h:461[m[K,
+[1.242s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+[1.242s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:524[m[K,
+[1.242s]                  from [01m[K/usr/include/c++/9/iostream:38[m[K,
+[1.242s]                  from [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:1[m[K:
+[1.242s] [01m[K/usr/include/math.h:34:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[1.242s]    34 | [01;31m[K__BEGIN_DECLS[m[K
+[1.242s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[1.243s] In file included from [01m[K/usr/include/c++/9/math.h:36[m[K,
+[1.243s]                  from [01m[K/home/ngvedu/auto/src/auto/include/auto/Sense.h:22[m[K,
+[1.243s]                  from [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:5[m[K:
+[1.243s] [01m[K/usr/include/c++/9/cmath:83:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::acos[m[K’ has not been declared
+[1.243s]    83 |   using ::[01;31m[Kacos[m[K;
+[1.243s]       |           [01;31m[K^~~~[m[K
+[1.244s] [01m[K/usr/include/c++/9/cmath:102:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::asin[m[K’ has not been declared
+[1.244s]   102 |   using ::[01;31m[Kasin[m[K;
+[1.244s]       |           [01;31m[K^~~~[m[K
+[1.245s] [01m[K/usr/include/c++/9/cmath:121:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::atan[m[K’ has not been declared
+[1.245s]   121 |   using ::[01;31m[Katan[m[K;
+[1.245s]       |           [01;31m[K^~~~[m[K
+[1.245s] [01m[K/usr/include/c++/9/cmath:140:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::atan2[m[K’ has not been declared
+[1.245s]   140 |   using ::[01;31m[Katan2[m[K;
+[1.246s]       |           [01;31m[K^~~~~[m[K
+[1.246s] [01m[K/usr/include/c++/9/cmath:161:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::ceil[m[K’ has not been declared
+[1.247s]   161 |   using ::[01;31m[Kceil[m[K;
+[1.247s]       |           [01;31m[K^~~~[m[K
+[1.247s] [01m[K/usr/include/c++/9/cmath:180:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::cos[m[K’ has not been declared
+[1.247s]   180 |   using ::[01;31m[Kcos[m[K;
+[1.248s]       |           [01;31m[K^~~[m[K
+[1.248s] [01m[K/usr/include/c++/9/cmath:199:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::cosh[m[K’ has not been declared
+[1.248s]   199 |   using ::[01;31m[Kcosh[m[K;
+[1.248s]       |           [01;31m[K^~~~[m[K
+[1.249s] [01m[K/usr/include/c++/9/cmath:218:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::exp[m[K’ has not been declared
+[1.249s]   218 |   using ::[01;31m[Kexp[m[K;
+[1.249s]       |           [01;31m[K^~~[m[K
+[1.250s] [01m[K/usr/include/c++/9/cmath:237:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fabs[m[K’ has not been declared
+[1.250s]   237 |   using ::[01;31m[Kfabs[m[K;
+[1.250s]       |           [01;31m[K^~~~[m[K
+[1.250s] [01m[K/usr/include/c++/9/cmath:256:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::floor[m[K’ has not been declared
+[1.250s]   256 |   using ::[01;31m[Kfloor[m[K;
+[1.251s]       |           [01;31m[K^~~~~[m[K
+[1.251s] [01m[K/usr/include/c++/9/cmath:275:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmod[m[K’ has not been declared
+[1.251s]   275 |   using ::[01;31m[Kfmod[m[K;
+[1.252s]       |           [01;31m[K^~~~[m[K
+[1.252s] [01m[K/usr/include/c++/9/cmath:296:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::frexp[m[K’ has not been declared
+[1.252s]   296 |   using ::[01;31m[Kfrexp[m[K;
+[1.252s]       |           [01;31m[K^~~~~[m[K
+[1.252s] [01m[K/usr/include/c++/9/cmath:315:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::ldexp[m[K’ has not been declared
+[1.252s]   315 |   using ::[01;31m[Kldexp[m[K;
+[1.252s]       |           [01;31m[K^~~~~[m[K
+[1.253s] [01m[K/usr/include/c++/9/cmath:334:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log[m[K’ has not been declared
+[1.253s]   334 |   using ::[01;31m[Klog[m[K;
+[1.253s]       |           [01;31m[K^~~[m[K
+[1.253s] [01m[K/usr/include/c++/9/cmath:353:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log10[m[K’ has not been declared
+[1.253s]   353 |   using ::[01;31m[Klog10[m[K;
+[1.253s]       |           [01;31m[K^~~~~[m[K
+[1.253s] [01m[K/usr/include/c++/9/cmath:372:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::modf[m[K’ has not been declared
+[1.254s]   372 |   using ::[01;31m[Kmodf[m[K;
+[1.254s]       |           [01;31m[K^~~~[m[K
+[1.254s] [01m[K/usr/include/c++/9/cmath:384:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::pow[m[K’ has not been declared
+[1.254s]   384 |   using ::[01;31m[Kpow[m[K;
+[1.254s]       |           [01;31m[K^~~[m[K
+[1.254s] [01m[K/usr/include/c++/9/cmath:421:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::sin[m[K’ has not been declared
+[1.254s]   421 |   using ::[01;31m[Ksin[m[K;
+[1.254s]       |           [01;31m[K^~~[m[K
+[1.255s] [01m[K/usr/include/c++/9/cmath:440:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::sinh[m[K’ has not been declared
+[1.255s]   440 |   using ::[01;31m[Ksinh[m[K;
+[1.257s]       |           [01;31m[K^~~~[m[K
+[1.257s] [01m[K/usr/include/c++/9/cmath:459:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::sqrt[m[K’ has not been declared
+[1.258s]   459 |   using ::[01;31m[Ksqrt[m[K;
+[1.258s]       |           [01;31m[K^~~~[m[K
+[1.258s] [01m[K/usr/include/c++/9/cmath:478:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::tan[m[K’ has not been declared
+[1.258s]   478 |   using ::[01;31m[Ktan[m[K;
+[1.258s]       |           [01;31m[K^~~[m[K
+[1.258s] [01m[K/usr/include/c++/9/cmath:497:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::tanh[m[K’ has not been declared
+[1.258s]   497 |   using ::[01;31m[Ktanh[m[K;
+[1.259s]       |           [01;31m[K^~~~[m[K
+[1.259s] [01m[K/usr/include/c++/9/cmath:1065:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::double_t[m[K’ has not been declared
+[1.259s]  1065 |   using ::[01;31m[Kdouble_t[m[K;
+[1.259s]       |           [01;31m[K^~~~~~~~[m[K
+[1.259s] [01m[K/usr/include/c++/9/cmath:1066:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::float_t[m[K’ has not been declared
+[1.261s]  1066 |   using ::[01;31m[Kfloat_t[m[K;
+[1.261s]       |           [01;31m[K^~~~~~~[m[K
+[1.261s] [01m[K/usr/include/c++/9/cmath:1069:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::acosh[m[K’ has not been declared
+[1.261s]  1069 |   using ::[01;31m[Kacosh[m[K;
+[1.261s]       |           [01;31m[K^~~~~[m[K
+[1.261s] [01m[K/usr/include/c++/9/cmath:1070:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::acoshf[m[K’ has not been declared
+[1.261s]  1070 |   using ::[01;31m[Kacoshf[m[K;
+[1.261s]       |           [01;31m[K^~~~~~[m[K
+[1.261s] [01m[K/usr/include/c++/9/cmath:1071:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::acoshl[m[K’ has not been declared
+[1.262s]  1071 |   using ::[01;31m[Kacoshl[m[K;
+[1.262s]       |           [01;31m[K^~~~~~[m[K
+[1.262s] [01m[K/usr/include/c++/9/cmath:1073:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::asinh[m[K’ has not been declared
+[1.262s]  1073 |   using ::[01;31m[Kasinh[m[K;
+[1.262s]       |           [01;31m[K^~~~~[m[K
+[1.262s] [01m[K/usr/include/c++/9/cmath:1074:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::asinhf[m[K’ has not been declared
+[1.262s]  1074 |   using ::[01;31m[Kasinhf[m[K;
+[1.262s]       |           [01;31m[K^~~~~~[m[K
+[1.262s] [01m[K/usr/include/c++/9/cmath:1075:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::asinhl[m[K’ has not been declared
+[1.263s]  1075 |   using ::[01;31m[Kasinhl[m[K;
+[1.263s]       |           [01;31m[K^~~~~~[m[K
+[1.263s] [01m[K/usr/include/c++/9/cmath:1077:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::atanh[m[K’ has not been declared
+[1.263s]  1077 |   using ::[01;31m[Katanh[m[K;
+[1.263s]       |           [01;31m[K^~~~~[m[K
+[1.263s] [01m[K/usr/include/c++/9/cmath:1078:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::atanhf[m[K’ has not been declared
+[1.263s]  1078 |   using ::[01;31m[Katanhf[m[K;
+[1.263s]       |           [01;31m[K^~~~~~[m[K
+[1.264s] [01m[K/usr/include/c++/9/cmath:1079:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::atanhl[m[K’ has not been declared
+[1.264s]  1079 |   using ::[01;31m[Katanhl[m[K;
+[1.264s]       |           [01;31m[K^~~~~~[m[K
+[1.264s] [01m[K/usr/include/c++/9/cmath:1081:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::cbrt[m[K’ has not been declared
+[1.264s]  1081 |   using ::[01;31m[Kcbrt[m[K;
+[1.264s]       |           [01;31m[K^~~~[m[K
+[1.264s] [01m[K/usr/include/c++/9/cmath:1082:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::cbrtf[m[K’ has not been declared
+[1.264s]  1082 |   using ::[01;31m[Kcbrtf[m[K;
+[1.265s]       |           [01;31m[K^~~~~[m[K
+[1.265s] [01m[K/usr/include/c++/9/cmath:1083:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::cbrtl[m[K’ has not been declared
+[1.265s]  1083 |   using ::[01;31m[Kcbrtl[m[K;
+[1.265s]       |           [01;31m[K^~~~~[m[K
+[1.265s] [01m[K/usr/include/c++/9/cmath:1085:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::copysign[m[K’ has not been declared
+[1.265s]  1085 |   using ::[01;31m[Kcopysign[m[K;
+[1.265s]       |           [01;31m[K^~~~~~~~[m[K
+[1.265s] [01m[K/usr/include/c++/9/cmath:1086:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::copysignf[m[K’ has not been declared
+[1.265s]  1086 |   using ::[01;31m[Kcopysignf[m[K;
+[1.265s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.266s] [01m[K/usr/include/c++/9/cmath:1087:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::copysignl[m[K’ has not been declared
+[1.266s]  1087 |   using ::[01;31m[Kcopysignl[m[K;
+[1.266s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.266s] [01m[K/usr/include/c++/9/cmath:1089:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erf[m[K’ has not been declared
+[1.266s]  1089 |   using ::[01;31m[Kerf[m[K;
+[1.266s]       |           [01;31m[K^~~[m[K
+[1.266s] [01m[K/usr/include/c++/9/cmath:1090:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erff[m[K’ has not been declared
+[1.266s]  1090 |   using ::[01;31m[Kerff[m[K;
+[1.266s]       |           [01;31m[K^~~~[m[K
+[1.267s] [01m[K/usr/include/c++/9/cmath:1091:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erfl[m[K’ has not been declared
+[1.267s]  1091 |   using ::[01;31m[Kerfl[m[K;
+[1.267s]       |           [01;31m[K^~~~[m[K
+[1.267s] [01m[K/usr/include/c++/9/cmath:1093:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erfc[m[K’ has not been declared
+[1.267s]  1093 |   using ::[01;31m[Kerfc[m[K;
+[1.267s]       |           [01;31m[K^~~~[m[K
+[1.267s] [01m[K/usr/include/c++/9/cmath:1094:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erfcf[m[K’ has not been declared
+[1.268s]  1094 |   using ::[01;31m[Kerfcf[m[K;
+[1.268s]       |           [01;31m[K^~~~~[m[K
+[1.268s] [01m[K/usr/include/c++/9/cmath:1095:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::erfcl[m[K’ has not been declared
+[1.268s]  1095 |   using ::[01;31m[Kerfcl[m[K;
+[1.268s]       |           [01;31m[K^~~~~[m[K
+[1.268s] [01m[K/usr/include/c++/9/cmath:1097:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::exp2[m[K’ has not been declared
+[1.268s]  1097 |   using ::[01;31m[Kexp2[m[K;
+[1.268s]       |           [01;31m[K^~~~[m[K
+[1.269s] [01m[K/usr/include/c++/9/cmath:1098:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::exp2f[m[K’ has not been declared
+[1.269s]  1098 |   using ::[01;31m[Kexp2f[m[K;
+[1.269s]       |           [01;31m[K^~~~~[m[K
+[1.269s] [01m[K/usr/include/c++/9/cmath:1099:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::exp2l[m[K’ has not been declared
+[1.269s]  1099 |   using ::[01;31m[Kexp2l[m[K;
+[1.269s]       |           [01;31m[K^~~~~[m[K
+[1.269s] [01m[K/usr/include/c++/9/cmath:1101:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::expm1[m[K’ has not been declared
+[1.269s]  1101 |   using ::[01;31m[Kexpm1[m[K;
+[1.270s]       |           [01;31m[K^~~~~[m[K
+[1.270s] [01m[K/usr/include/c++/9/cmath:1102:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::expm1f[m[K’ has not been declared
+[1.270s]  1102 |   using ::[01;31m[Kexpm1f[m[K;
+[1.270s]       |           [01;31m[K^~~~~~[m[K
+[1.270s] [01m[K/usr/include/c++/9/cmath:1103:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::expm1l[m[K’ has not been declared
+[1.270s]  1103 |   using ::[01;31m[Kexpm1l[m[K;
+[1.270s]       |           [01;31m[K^~~~~~[m[K
+[1.270s] [01m[K/usr/include/c++/9/cmath:1105:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fdim[m[K’ has not been declared
+[1.271s]  1105 |   using ::[01;31m[Kfdim[m[K;
+[1.271s]       |           [01;31m[K^~~~[m[K
+[1.271s] [01m[K/usr/include/c++/9/cmath:1106:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fdimf[m[K’ has not been declared
+[1.271s]  1106 |   using ::[01;31m[Kfdimf[m[K;
+[1.271s]       |           [01;31m[K^~~~~[m[K
+[1.271s] [01m[K/usr/include/c++/9/cmath:1107:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fdiml[m[K’ has not been declared
+[1.271s]  1107 |   using ::[01;31m[Kfdiml[m[K;
+[1.272s]       |           [01;31m[K^~~~~[m[K
+[1.272s] [01m[K/usr/include/c++/9/cmath:1109:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fma[m[K’ has not been declared
+[1.272s]  1109 |   using ::[01;31m[Kfma[m[K;
+[1.272s]       |           [01;31m[K^~~[m[K
+[1.272s] [01m[K/usr/include/c++/9/cmath:1110:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmaf[m[K’ has not been declared
+[1.272s]  1110 |   using ::[01;31m[Kfmaf[m[K;
+[1.272s]       |           [01;31m[K^~~~[m[K
+[1.273s] [01m[K/usr/include/c++/9/cmath:1111:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmal[m[K’ has not been declared
+[1.273s]  1111 |   using ::[01;31m[Kfmal[m[K;
+[1.273s]       |           [01;31m[K^~~~[m[K
+[1.273s] [01m[K/usr/include/c++/9/cmath:1113:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmax[m[K’ has not been declared
+[1.273s]  1113 |   using ::[01;31m[Kfmax[m[K;
+[1.273s]       |           [01;31m[K^~~~[m[K
+[1.273s] [01m[K/usr/include/c++/9/cmath:1114:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmaxf[m[K’ has not been declared
+[1.273s]  1114 |   using ::[01;31m[Kfmaxf[m[K;
+[1.273s]       |           [01;31m[K^~~~~[m[K
+[1.274s] [01m[K/usr/include/c++/9/cmath:1115:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmaxl[m[K’ has not been declared
+[1.274s]  1115 |   using ::[01;31m[Kfmaxl[m[K;
+[1.274s]       |           [01;31m[K^~~~~[m[K
+[1.274s] [01m[K/usr/include/c++/9/cmath:1117:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fmin[m[K’ has not been declared
+[1.274s]  1117 |   using ::[01;31m[Kfmin[m[K;
+[1.274s]       |           [01;31m[K^~~~[m[K
+[1.274s] [01m[K/usr/include/c++/9/cmath:1118:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fminf[m[K’ has not been declared
+[1.274s]  1118 |   using ::[01;31m[Kfminf[m[K;
+[1.274s]       |           [01;31m[K^~~~~[m[K
+[1.275s] [01m[K/usr/include/c++/9/cmath:1119:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::fminl[m[K’ has not been declared
+[1.275s]  1119 |   using ::[01;31m[Kfminl[m[K;
+[1.275s]       |           [01;31m[K^~~~~[m[K
+[1.275s] [01m[K/usr/include/c++/9/cmath:1121:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::hypot[m[K’ has not been declared
+[1.275s]  1121 |   using ::[01;31m[Khypot[m[K;
+[1.276s]       |           [01;31m[K^~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/9/cmath:1122:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::hypotf[m[K’ has not been declared
+[1.276s]  1122 |   using ::[01;31m[Khypotf[m[K;
+[1.276s]       |           [01;31m[K^~~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/9/cmath:1123:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::hypotl[m[K’ has not been declared
+[1.276s]  1123 |   using ::[01;31m[Khypotl[m[K;
+[1.276s]       |           [01;31m[K^~~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/9/cmath:1125:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::ilogb[m[K’ has not been declared
+[1.277s]  1125 |   using ::[01;31m[Kilogb[m[K;
+[1.277s]       |           [01;31m[K^~~~~[m[K
+[1.277s] [01m[K/usr/include/c++/9/cmath:1126:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::ilogbf[m[K’ has not been declared
+[1.277s]  1126 |   using ::[01;31m[Kilogbf[m[K;
+[1.277s]       |           [01;31m[K^~~~~~[m[K
+[1.277s] [01m[K/usr/include/c++/9/cmath:1127:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::ilogbl[m[K’ has not been declared
+[1.278s]  1127 |   using ::[01;31m[Kilogbl[m[K;
+[1.278s]       |           [01;31m[K^~~~~~[m[K
+[1.278s] [01m[K/usr/include/c++/9/cmath:1129:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lgamma[m[K’ has not been declared
+[1.278s]  1129 |   using ::[01;31m[Klgamma[m[K;
+[1.278s]       |           [01;31m[K^~~~~~[m[K
+[1.278s] [01m[K/usr/include/c++/9/cmath:1130:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lgammaf[m[K’ has not been declared
+[1.279s]  1130 |   using ::[01;31m[Klgammaf[m[K;
+[1.279s]       |           [01;31m[K^~~~~~~[m[K
+[1.279s] [01m[K/usr/include/c++/9/cmath:1131:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lgammal[m[K’ has not been declared
+[1.279s]  1131 |   using ::[01;31m[Klgammal[m[K;
+[1.279s]       |           [01;31m[K^~~~~~~[m[K
+[1.279s] [01m[K/usr/include/c++/9/cmath:1134:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llrint[m[K’ has not been declared
+[1.279s]  1134 |   using ::[01;31m[Kllrint[m[K;
+[1.279s]       |           [01;31m[K^~~~~~[m[K
+[1.280s] [01m[K/usr/include/c++/9/cmath:1135:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llrintf[m[K’ has not been declared
+[1.280s]  1135 |   using ::[01;31m[Kllrintf[m[K;
+[1.280s]       |           [01;31m[K^~~~~~~[m[K
+[1.280s] [01m[K/usr/include/c++/9/cmath:1136:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llrintl[m[K’ has not been declared
+[1.280s]  1136 |   using ::[01;31m[Kllrintl[m[K;
+[1.280s]       |           [01;31m[K^~~~~~~[m[K
+[1.280s] [01m[K/usr/include/c++/9/cmath:1138:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llround[m[K’ has not been declared
+[1.280s]  1138 |   using ::[01;31m[Kllround[m[K;
+[1.280s]       |           [01;31m[K^~~~~~~[m[K
+[1.280s] [01m[K/usr/include/c++/9/cmath:1139:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llroundf[m[K’ has not been declared
+[1.281s]  1139 |   using ::[01;31m[Kllroundf[m[K;
+[1.281s]       |           [01;31m[K^~~~~~~~[m[K
+[1.281s] [01m[K/usr/include/c++/9/cmath:1140:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::llroundl[m[K’ has not been declared
+[1.281s]  1140 |   using ::[01;31m[Kllroundl[m[K;
+[1.281s]       |           [01;31m[K^~~~~~~~[m[K
+[1.281s] [01m[K/usr/include/c++/9/cmath:1143:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log1p[m[K’ has not been declared
+[1.281s]  1143 |   using ::[01;31m[Klog1p[m[K;
+[1.281s]       |           [01;31m[K^~~~~[m[K
+[1.282s] [01m[K/usr/include/c++/9/cmath:1144:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log1pf[m[K’ has not been declared
+[1.282s]  1144 |   using ::[01;31m[Klog1pf[m[K;
+[1.282s]       |           [01;31m[K^~~~~~[m[K
+[1.282s] [01m[K/usr/include/c++/9/cmath:1145:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log1pl[m[K’ has not been declared
+[1.282s]  1145 |   using ::[01;31m[Klog1pl[m[K;
+[1.282s]       |           [01;31m[K^~~~~~[m[K
+[1.282s] [01m[K/usr/include/c++/9/cmath:1147:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log2[m[K’ has not been declared
+[1.282s]  1147 |   using ::[01;31m[Klog2[m[K;
+[1.283s]       |           [01;31m[K^~~~[m[K
+[1.283s] [01m[K/usr/include/c++/9/cmath:1148:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log2f[m[K’ has not been declared
+[1.283s]  1148 |   using ::[01;31m[Klog2f[m[K;
+[1.283s]       |           [01;31m[K^~~~~[m[K
+[1.283s] [01m[K/usr/include/c++/9/cmath:1149:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::log2l[m[K’ has not been declared
+[1.283s]  1149 |   using ::[01;31m[Klog2l[m[K;
+[1.283s]       |           [01;31m[K^~~~~[m[K
+[1.283s] [01m[K/usr/include/c++/9/cmath:1151:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::logb[m[K’ has not been declared
+[1.283s]  1151 |   using ::[01;31m[Klogb[m[K;
+[1.283s]       |           [01;31m[K^~~~[m[K
+[1.284s] [01m[K/usr/include/c++/9/cmath:1152:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::logbf[m[K’ has not been declared
+[1.284s]  1152 |   using ::[01;31m[Klogbf[m[K;
+[1.284s]       |           [01;31m[K^~~~~[m[K
+[1.285s] [01m[K/usr/include/c++/9/cmath:1153:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::logbl[m[K’ has not been declared
+[1.285s]  1153 |   using ::[01;31m[Klogbl[m[K;
+[1.285s]       |           [01;31m[K^~~~~[m[K
+[1.285s] [01m[K/usr/include/c++/9/cmath:1155:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lrint[m[K’ has not been declared
+[1.285s]  1155 |   using ::[01;31m[Klrint[m[K;
+[1.285s]       |           [01;31m[K^~~~~[m[K
+[1.285s] [01m[K/usr/include/c++/9/cmath:1156:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lrintf[m[K’ has not been declared
+[1.286s]  1156 |   using ::[01;31m[Klrintf[m[K;
+[1.286s]       |           [01;31m[K^~~~~~[m[K
+[1.286s] [01m[K/usr/include/c++/9/cmath:1157:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lrintl[m[K’ has not been declared
+[1.286s]  1157 |   using ::[01;31m[Klrintl[m[K;
+[1.286s]       |           [01;31m[K^~~~~~[m[K
+[1.286s] [01m[K/usr/include/c++/9/cmath:1159:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lround[m[K’ has not been declared
+[1.286s]  1159 |   using ::[01;31m[Klround[m[K;
+[1.287s]       |           [01;31m[K^~~~~~[m[K
+[1.287s] [01m[K/usr/include/c++/9/cmath:1160:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lroundf[m[K’ has not been declared
+[1.287s]  1160 |   using ::[01;31m[Klroundf[m[K;
+[1.287s]       |           [01;31m[K^~~~~~~[m[K
+[1.287s] [01m[K/usr/include/c++/9/cmath:1161:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::lroundl[m[K’ has not been declared
+[1.287s]  1161 |   using ::[01;31m[Klroundl[m[K;
+[1.287s]       |           [01;31m[K^~~~~~~[m[K
+[1.287s] [01m[K/usr/include/c++/9/cmath:1163:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nan[m[K’ has not been declared
+[1.288s]  1163 |   using ::[01;31m[Knan[m[K;
+[1.288s]       |           [01;31m[K^~~[m[K
+[1.288s] [01m[K/usr/include/c++/9/cmath:1164:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nanf[m[K’ has not been declared
+[1.288s]  1164 |   using ::[01;31m[Knanf[m[K;
+[1.288s]       |           [01;31m[K^~~~[m[K
+[1.288s] [01m[K/usr/include/c++/9/cmath:1165:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nanl[m[K’ has not been declared
+[1.288s]  1165 |   using ::[01;31m[Knanl[m[K;
+[1.288s]       |           [01;31m[K^~~~[m[K
+[1.289s] [01m[K/usr/include/c++/9/cmath:1167:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nearbyint[m[K’ has not been declared
+[1.289s]  1167 |   using ::[01;31m[Knearbyint[m[K;
+[1.289s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.289s] [01m[K/usr/include/c++/9/cmath:1168:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nearbyintf[m[K’ has not been declared
+[1.289s]  1168 |   using ::[01;31m[Knearbyintf[m[K;
+[1.289s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.289s] [01m[K/usr/include/c++/9/cmath:1169:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nearbyintl[m[K’ has not been declared
+[1.289s]  1169 |   using ::[01;31m[Knearbyintl[m[K;
+[1.289s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.290s] [01m[K/usr/include/c++/9/cmath:1171:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nextafter[m[K’ has not been declared
+[1.290s]  1171 |   using ::[01;31m[Knextafter[m[K;
+[1.290s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.290s] [01m[K/usr/include/c++/9/cmath:1172:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nextafterf[m[K’ has not been declared
+[1.290s]  1172 |   using ::[01;31m[Knextafterf[m[K;
+[1.290s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.290s] [01m[K/usr/include/c++/9/cmath:1173:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nextafterl[m[K’ has not been declared
+[1.290s]  1173 |   using ::[01;31m[Knextafterl[m[K;
+[1.291s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.291s] [01m[K/usr/include/c++/9/cmath:1175:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nexttoward[m[K’ has not been declared
+[1.291s]  1175 |   using ::[01;31m[Knexttoward[m[K;
+[1.291s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.291s] [01m[K/usr/include/c++/9/cmath:1176:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nexttowardf[m[K’ has not been declared
+[1.291s]  1176 |   using ::[01;31m[Knexttowardf[m[K;
+[1.291s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.291s] [01m[K/usr/include/c++/9/cmath:1177:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::nexttowardl[m[K’ has not been declared
+[1.292s]  1177 |   using ::[01;31m[Knexttowardl[m[K;
+[1.292s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.292s] [01m[K/usr/include/c++/9/cmath:1179:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remainder[m[K’ has not been declared
+[1.292s]  1179 |   using ::[01;31m[Kremainder[m[K;
+[1.292s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.292s] [01m[K/usr/include/c++/9/cmath:1180:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remainderf[m[K’ has not been declared
+[1.292s]  1180 |   using ::[01;31m[Kremainderf[m[K;
+[1.292s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.293s] [01m[K/usr/include/c++/9/cmath:1181:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remainderl[m[K’ has not been declared
+[1.293s]  1181 |   using ::[01;31m[Kremainderl[m[K;
+[1.293s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.293s] [01m[K/usr/include/c++/9/cmath:1183:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remquo[m[K’ has not been declared
+[1.293s]  1183 |   using ::[01;31m[Kremquo[m[K;
+[1.293s]       |           [01;31m[K^~~~~~[m[K
+[1.293s] [01m[K/usr/include/c++/9/cmath:1184:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remquof[m[K’ has not been declared
+[1.293s]  1184 |   using ::[01;31m[Kremquof[m[K;
+[1.293s]       |           [01;31m[K^~~~~~~[m[K
+[1.294s] [01m[K/usr/include/c++/9/cmath:1185:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::remquol[m[K’ has not been declared
+[1.294s]  1185 |   using ::[01;31m[Kremquol[m[K;
+[1.294s]       |           [01;31m[K^~~~~~~[m[K
+[1.294s] [01m[K/usr/include/c++/9/cmath:1187:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::rint[m[K’ has not been declared
+[1.294s]  1187 |   using ::[01;31m[Krint[m[K;
+[1.294s]       |           [01;31m[K^~~~[m[K
+[1.294s] [01m[K/usr/include/c++/9/cmath:1188:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::rintf[m[K’ has not been declared
+[1.294s]  1188 |   using ::[01;31m[Krintf[m[K;
+[1.295s]       |           [01;31m[K^~~~~[m[K
+[1.295s] [01m[K/usr/include/c++/9/cmath:1189:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::rintl[m[K’ has not been declared
+[1.295s]  1189 |   using ::[01;31m[Krintl[m[K;
+[1.295s]       |           [01;31m[K^~~~~[m[K
+[1.295s] [01m[K/usr/include/c++/9/cmath:1191:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::round[m[K’ has not been declared
+[1.295s]  1191 |   using ::[01;31m[Kround[m[K;
+[1.295s]       |           [01;31m[K^~~~~[m[K
+[1.295s] [01m[K/usr/include/c++/9/cmath:1192:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::roundf[m[K’ has not been declared
+[1.295s]  1192 |   using ::[01;31m[Kroundf[m[K;
+[1.296s]       |           [01;31m[K^~~~~~[m[K
+[1.296s] [01m[K/usr/include/c++/9/cmath:1193:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::roundl[m[K’ has not been declared
+[1.296s]  1193 |   using ::[01;31m[Kroundl[m[K;
+[1.296s]       |           [01;31m[K^~~~~~[m[K
+[1.296s] [01m[K/usr/include/c++/9/cmath:1195:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalbln[m[K’ has not been declared
+[1.296s]  1195 |   using ::[01;31m[Kscalbln[m[K;
+[1.296s]       |           [01;31m[K^~~~~~~[m[K
+[1.297s] [01m[K/usr/include/c++/9/cmath:1196:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalblnf[m[K’ has not been declared
+[1.297s]  1196 |   using ::[01;31m[Kscalblnf[m[K;
+[1.297s]       |           [01;31m[K^~~~~~~~[m[K
+[1.297s] [01m[K/usr/include/c++/9/cmath:1197:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalblnl[m[K’ has not been declared
+[1.297s]  1197 |   using ::[01;31m[Kscalblnl[m[K;
+[1.298s]       |           [01;31m[K^~~~~~~~[m[K
+[1.298s] [01m[K/usr/include/c++/9/cmath:1199:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalbn[m[K’ has not been declared
+[1.298s]  1199 |   using ::[01;31m[Kscalbn[m[K;
+[1.298s]       |           [01;31m[K^~~~~~[m[K
+[1.298s] [01m[K/usr/include/c++/9/cmath:1200:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalbnf[m[K’ has not been declared
+[1.298s]  1200 |   using ::[01;31m[Kscalbnf[m[K;
+[1.298s]       |           [01;31m[K^~~~~~~[m[K
+[1.298s] [01m[K/usr/include/c++/9/cmath:1201:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::scalbnl[m[K’ has not been declared
+[1.298s]  1201 |   using ::[01;31m[Kscalbnl[m[K;
+[1.298s]       |           [01;31m[K^~~~~~~[m[K
+[1.299s] [01m[K/usr/include/c++/9/cmath:1203:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::tgamma[m[K’ has not been declared
+[1.299s]  1203 |   using ::[01;31m[Ktgamma[m[K;
+[1.299s]       |           [01;31m[K^~~~~~[m[K
+[1.299s] [01m[K/usr/include/c++/9/cmath:1204:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::tgammaf[m[K’ has not been declared
+[1.299s]  1204 |   using ::[01;31m[Ktgammaf[m[K;
+[1.299s]       |           [01;31m[K^~~~~~~[m[K
+[1.299s] [01m[K/usr/include/c++/9/cmath:1205:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::tgammal[m[K’ has not been declared
+[1.300s]  1205 |   using ::[01;31m[Ktgammal[m[K;
+[1.300s]       |           [01;31m[K^~~~~~~[m[K
+[1.300s] [01m[K/usr/include/c++/9/cmath:1207:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::trunc[m[K’ has not been declared
+[1.300s]  1207 |   using ::[01;31m[Ktrunc[m[K;
+[1.300s]       |           [01;31m[K^~~~~[m[K
+[1.300s] [01m[K/usr/include/c++/9/cmath:1208:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::truncf[m[K’ has not been declared
+[1.301s]  1208 |   using ::[01;31m[Ktruncf[m[K;
+[1.301s]       |           [01;31m[K^~~~~~[m[K
+[1.301s] [01m[K/usr/include/c++/9/cmath:1209:11:[m[K [01;31m[Kerror: [m[K‘[01m[K::truncl[m[K’ has not been declared
+[1.301s]  1209 |   using ::[01;31m[Ktruncl[m[K;
+[1.301s]       |           [01;31m[K^~~~~~[m[K
+[1.301s] [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.301s]     6 | [01;31m[K}[m[K
+[1.301s]       | [01;31m[K^[m[K
+[2.152s] In file included from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[2.152s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.152s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[2.152s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[2.152s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.152s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.153s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.153s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.153s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.153s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.153s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.153s]                  from [01m[K/home/ngvedu/auto/src/auto/src/sense_node.cpp:14[m[K:
+[2.154s] [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knan[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Knano[m[K’?
+[2.154s]    34 |   double average = std::[01;31m[Knan[m[K("");
+[2.154s]       |                         [01;31m[K^~~[m[K
+[2.154s]       |                         [32m[Knano[m[K
+[2.158s] [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knan[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Knano[m[K’?
+[2.158s]    35 |   double min = std::[01;31m[Knan[m[K("");
+[2.158s]       |                     [01;31m[K^~~[m[K
+[2.158s]       |                     [32m[Knano[m[K
+[2.158s] [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:36:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knan[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Knano[m[K’?
+[2.158s]    36 |   double max = std::[01;31m[Knan[m[K("");
+[2.158s]       |                     [01;31m[K^~~[m[K
+[2.158s]       |                     [32m[Knano[m[K
+[2.159s] [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:37:36:[m[K [01;31m[Kerror: [m[K‘[01m[Knan[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Knano[m[K’?
+[2.159s]    37 |   double standard_deviation = std::[01;31m[Knan[m[K("");
+[2.159s]       |                                    [01;31m[K^~~[m[K
+[2.159s]       |                                    [32m[Knano[m[K
+[4.314s] make[2]: *** [CMakeFiles/sense.dir/build.make:76: CMakeFiles/sense.dir/src/sense_node.cpp.o] Error 1
+[4.314s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/sense.dir/all] Error 2
+[4.314s] make: *** [Makefile:141: all] Error 2
+[4.321s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

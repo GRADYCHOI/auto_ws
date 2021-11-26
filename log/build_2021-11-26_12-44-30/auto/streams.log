@@ -1,0 +1,18 @@
+[0.034s] Invoking command in '/home/ngvedu/auto/build/auto': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2
+[0.198s] [ 11%] [32m[1mLinking CXX executable compute[0m
+[0.205s] [ 44%] Built target actuate
+[0.229s] [35m[1mScanning dependencies of target sense[0m
+[0.355s] [ 55%] [32mBuilding CXX object CMakeFiles/sense.dir/src/sense_node.cpp.o[0m
+[1.122s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `main':
+[1.122s] compute_node.cpp:(.text+0x1ad): undefined reference to `Compute_initialize()'
+[1.123s] /usr/bin/ld: compute_node.cpp:(.text+0x2e3): undefined reference to `Compute_terminate()'
+[1.123s] /usr/bin/ld: CMakeFiles/compute.dir/src/compute_node.cpp.o: in function `compute::topic_callback(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >) const':
+[1.123s] compute_node.cpp:(.text._ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE[_ZNK7compute14topic_callbackESt10shared_ptrIN8std_msgs3msg8Float64_ISaIvEEEE]+0x2d): undefined reference to `Compute_step()'
+[1.126s] collect2: error: ld returned 1 exit status
+[1.127s] make[2]: *** [CMakeFiles/compute.dir/build.make:146: compute] Error 1
+[1.127s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/compute.dir/all] Error 2
+[1.127s] make[1]: *** Waiting for unfinished jobs....
+[5.326s] [ 66%] [32m[1mLinking CXX executable sense[0m
+[5.671s] [ 77%] Built target sense
+[5.673s] make: *** [Makefile:141: all] Error 2
+[5.680s] Invoked command in '/home/ngvedu/auto/build/auto' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/auto/build/auto -- -j2 -l2

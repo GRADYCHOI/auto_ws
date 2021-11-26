@@ -57,15 +57,9 @@ extern ExtU_Compute_T Compute_U;
 extern ExtY_Compute_T Compute_Y;
 
 /* Model entry point functions */
-#ifdef __cplusplus
-extern "C" {
-#endif
 extern void Compute_initialize(void);
 extern void Compute_step(void);
 extern void Compute_terminate(void);
-#ifdef __cplusplus
-}
-#endif
 
 /* Real-time Model object */
 extern RT_MODEL_Compute_T *const Compute_M;

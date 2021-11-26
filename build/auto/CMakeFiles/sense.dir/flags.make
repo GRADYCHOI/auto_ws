@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =   -Wall -Wextra -Wpedantic -DMODEL=Sense -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -std=gnu99
+C_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu99
 
 C_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"auto\" -DSPDLOG_COMPILED_LIB
 
-C_INCLUDES = -I/home/ngvedu/auto/src/auto/include/auto -I/home/ngvedu/auto/src/auto/include -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/ngvedu/auto/src/auto/include/auto -isystem /opt/ros/foxy/include 
 
-CXX_FLAGS =   -Wall -Wextra -Wpedantic -DMODEL=Sense -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -std=gnu++14
+CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"auto\" -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/ngvedu/auto/src/auto/include/auto -I/home/ngvedu/auto/src/auto/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/ngvedu/auto/src/auto/include/auto -isystem /opt/ros/foxy/include 
 

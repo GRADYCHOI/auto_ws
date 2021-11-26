@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stddef.h>
 #include <stdio.h>
+extern "C" {
 #include "Compute.h" 
+}
+
 #include "rtwtypes.h"
 #include <chrono>
 #include <functional>

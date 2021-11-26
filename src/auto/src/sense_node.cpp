@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stddef.h>
 #include <stdio.h>
-#include "Sense.h"             
+extern "C" {
+	#include "Sense.h" 
+}
+
 #include "rtwtypes.h"
 #include <chrono>
 #include <functional>
